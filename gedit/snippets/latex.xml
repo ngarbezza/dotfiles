@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="latex">
+  <snippet>
+    <text><![CDATA[\begin{${1:env}}
+  $0
+\end{${1:env}}]]></text>
+    <tag>begin</tag>
+    <description>begin environment</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\cite{${1:citation}}$0]]></text>
+    <tag>cite</tag>
+    <description>cite</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\[
+	$1
+\]]]></text>
+    <tag>$</tag>
+    <description>Displaymath</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\emph{${1:text}}$0]]></text>
+    <tag>emph</tag>
+    <description>emph</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\emph{$GEDIT_SELECTED_TEXT}]]></text>
+    <description>emph</description>
+    <accelerator><![CDATA[<Shift><Alt>e]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\footnote{${1:text}}$0]]></text>
+    <tag>foot</tag>
+    <description>footnote</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\item[${1:description}] ${0:item}]]></text>
+    <tag>itd</tag>
+    <description>\item[description]</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\ref{${1:type}:${2:ref}}$0]]></text>
+    <tag>ref</tag>
+    <description>ref</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\section{${1:section name}}
+\label{${2:label}}
+
+$0]]></text>
+    <tag>sec</tag>
+    <description>Section</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\subsection{${1:subsection name}}
+\label{${2:label}}
+
+$0]]></text>
+    <tag>sub</tag>
+    <description>Sub Section</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\subsubsection{${1:subsubsection name}}
+\label{${2:label}}
+
+$0
+]]></text>
+    <tag>ssub</tag>
+    <description>Sub Sub Section</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\textit{${1:text}}$0]]></text>
+    <tag>it</tag>
+    <description>textit</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\textit{$GEDIT_SELECTED_TEXT}]]></text>
+    <description>textit</description>
+    <accelerator><![CDATA[<Shift><Alt>i]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\verb+$GEDIT_SELECTED_TEXT+]]></text>
+    <description>verb</description>
+    <accelerator><![CDATA[<Shift><Alt>v]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\verb+${1:text}+$0]]></text>
+    <tag>verb</tag>
+    <description>verb</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{\\${1:bf} $GEDIT_SELECTED_TEXT}]]></text>
+    <description>Wrap Selection in Command</description>
+    <accelerator><![CDATA[<Shift><Alt>w]]></accelerator>
+  </snippet>
+</snippets>
