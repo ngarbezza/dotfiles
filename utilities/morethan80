@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# know which lines in a text file have more than 80 columns.
+
+awk '{if (length($0) > 80) print "Line", NR, "-", length($0), "characters"}' "$@"

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="cucumber">
+
+  <!-- SPANISH -->
+  <snippet>
+    <text><![CDATA[Característica: $1]]></text>
+    <tag>ca</tag>
+    <description>Característica</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Característica: ${1:titulo}
+  Para ${2:objetivo}
+  Como un ${3:tipo de usuario}
+  Quiero ${4:funcionalidad}
+
+  $0]]></text>
+    <tag>car</tag>
+    <description>Característica (Completa)</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Escenario: $1]]></text>
+    <tag>es</tag>
+    <description>Escenario</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Escenario: ${1:titulo}
+  Dado ${2:precondicion}
+  $0]]></text>
+    <tag>esc</tag>
+    <description>Escenario (Completo)</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Dado $1]]></text>
+    <tag>dd</tag>
+    <description>Dado</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Cuando $1]]></text>
+    <tag>cu</tag>
+    <description>Cuando</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Entonces $1]]></text>
+    <tag>et</tag>
+    <description>Entonces</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Y $1]]></text>
+    <tag>y</tag>
+    <description>Y</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Pero $1]]></text>
+    <tag>pe</tag>
+    <description>Pero</description>
+  </snippet>
+
+<!-- ENGLISH -->
+
+  <snippet>
+    <text><![CDATA[Feature: ${1:Feature description}
+  In order ${2:to acomplish the objective}
+  As a ${3:User type}
+  I want ${4:to get the feature working}
+
+  $0]]></text>
+    <tag>fea</tag>
+    <description>Feature</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Feature: $1]]></text>
+    <tag>fe</tag>
+    <description>Feature</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Scenario: $1]]></text>
+    <tag>sc</tag>
+    <description>Scenario</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Scenario: ${1:Scenario description}
+  Given ${2:situation}
+  $0]]></text>
+    <tag>sce</tag>
+    <description>Scenario</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Given $1]]></text>
+    <tag>gi</tag>
+    <description>Given</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[When $1]]></text>
+    <tag>wh</tag>
+    <description>When</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[Then $1]]></text>
+    <tag>th</tag>
+    <description>Then</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[And $1]]></text>
+    <tag>a</tag>
+    <description>And</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[But $1]]></text>
+    <tag>bu</tag>
+    <description>But</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[As a $1]]></text>
+    <tag>aa</tag>
+    <description>As a</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[As an $1]]></text>
+    <tag>an</tag>
+    <description>As an</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[In order $1]]></text>
+    <tag>io</tag>
+    <description>In order</description>
+  </snippet>
+
+  <snippet>
+    <text><![CDATA[I want $1]]></text>
+    <tag>iw</tag>
+    <description>I want</description>
+  </snippet>
+
+<!-- GENERAL -->
+
+</snippets>

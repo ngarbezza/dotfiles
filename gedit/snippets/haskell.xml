@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="haskell">
+  <snippet>
+    <text><![CDATA[module ${1:Main} where
+	$0]]></text>
+    <tag>mod</tag>
+    <description>module</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\\${1:t} -> ${1:t}]]></text>
+    <tag>\</tag>
+    <description>\t -&gt; t</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[module ${1:Main} where
+	$0]]></text>
+    <tag>mod</tag>
+    <description>module</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\\${1:t} -> ${1:t}]]></text>
+    <tag>\</tag>
+    <description>\t -&gt; t</description>
+  </snippet>
+</snippets>

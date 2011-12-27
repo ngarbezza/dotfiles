@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="java">
+  <snippet>
+    <text><![CDATA[private static final ${1:String} ${2:var} = "$0";]]></text>
+    <tag>cd</tag>
+    <description>const def</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ($1) { // $2
+   $0
+}]]></text>
+    <tag>if</tag>
+    <description>if</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ($1) { // $2
+
+   $0
+
+} else { // $3
+
+
+
+}
+
+]]></text>
+    <tag>ife</tag>
+    <description>if .. else</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[/** Logger for this class and subclasses. */
+protected final Log log = LogFactory.getLog(getClass());
+]]></text>
+    <tag>log</tag>
+    <description>logger</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[public static void main(String[] args) {
+	${1:System.exit(0)};
+}]]></text>
+    <tag>main</tag>
+    <description>main</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[System.out.println("${1}");
+$0
+]]></text>
+    <tag>sout</tag>
+    <description>System.out.println</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[try {
+   $2
+} catch (${1:Exception} e) {
+   $3
+}
+$0]]></text>
+    <tag>tc</tag>
+    <description>try .. catch</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[try {
+   $2
+} catch (${1:Exception} e) {
+   $3
+} finally {
+   $4
+}
+$0]]></text>
+    <tag>tcf</tag>
+    <description>try .. catch .. finally</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[while ($1) { // $2
+   $0
+}]]></text>
+    <tag>while</tag>
+    <description>while statement</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[try {
+	$GEDIT_SELECTED_TEXT
+}
+catch (Exception e) {
+	${1:e.printStackTrace();}
+}
+$0]]></text>
+    <description>Wrap Selection in Try/Catch</description>
+    <accelerator><![CDATA[<Shift><Alt>t]]></accelerator>
+  </snippet>
+</snippets>

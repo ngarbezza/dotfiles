@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="markdown">
+  <snippet>
+    <text><![CDATA[\`$0\`]]></text>
+    <tag>c</tag>
+    <description>code en ligne</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:Header}
+===============
+
+]]></text>
+    <tag>Hs</tag>
+    <description>Header 1 (setext-style)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:Header}
+---------------
+
+]]></text>
+    <tag>hs</tag>
+    <description>Header 2 (setext-style)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:#} ${2:Header} $1
+
+]]></text>
+    <tag>h</tag>
+    <description>Header (atx-style)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:#} ${2:title} $1
+]]></text>
+    <tag>hhd</tag>
+    <description>Header Hashed</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:Header}
+===========
+]]></text>
+    <tag>Hd</tag>
+    <description>Header Underlined I</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:Header}
+-----------]]></text>
+    <tag>hd</tag>
+    <description>Header Underlined II</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[***************
+
+$0]]></text>
+    <tag>hr</tag>
+    <description>Horizontal Rule</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[![${1:alt-text}](${2:URI})]]></text>
+    <tag>img</tag>
+    <description>Image</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[![${1:alt text}](${2:URL})]]></text>
+    <tag>img</tag>
+    <description>Inline Image</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:NewPage}][${2:1}] ]]></text>
+    <tag>lnk</tag>
+    <description>Link</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:link label}]: ${2:URL}
+]]></text>
+    <tag>adef</tag>
+    <description>Link Definition</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:NewPage}](${2:URL}) ]]></text>
+    <tag>lnki</tag>
+    <description>Link inline</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[1. $1
+2. $2
+3. $3
+4. $4
+
+]]></text>
+    <tag>ol</tag>
+    <description>Ordered List</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:1}]: ${2:address}
+]]></text>
+    <tag>ref</tag>
+    <description>Reference</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[![${1:alt text}][${2:image label}]]]></text>
+    <tag>iref</tag>
+    <description>Reference Image</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[* $1
+* $2
+${3:lst}]]></text>
+    <tag>lst</tag>
+    <description>Unordered list</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[* $1
+* $2
+* $3
+* $4
+
+]]></text>
+    <tag>ul</tag>
+    <description>Unordered List</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\`${1:$GEDIT_SELECTED_TEXT}\`]]></text>
+    <tag>code</tag>
+    <description>Wrap Selection as Code Span</description>
+    <accelerator><![CDATA[<Control><Alt>c]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:$GEDIT_SELECTED_TEXT}](${2:URL})]]></text>
+    <tag>a</tag>
+    <description>Wrap Selection as Inline Link</description>
+    <accelerator><![CDATA[<Control><Alt>a]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[${1:$GEDIT_SELECTED_TEXT}][${2:link label}]]]></text>
+    <tag>aref</tag>
+    <description>Wrap Selection as Reference Link</description>
+    <accelerator><![CDATA[<Control><Alt>r]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[$GEDIT_SELECTED_TEXT](${1:URL})]]></text>
+    <description>Wrap selection in link inline</description>
+    <accelerator><![CDATA[<Control><Alt>l]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[[$GEDIT_SELECTED_TEXT][${1:id}]	]]></text>
+    <description>Wrap selection in link w/ ref</description>
+    <accelerator><![CDATA[<Control><Alt>l]]></accelerator>
+  </snippet>
+</snippets>
