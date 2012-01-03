@@ -1,0 +1,2 @@
+# Pharo script completion
+complete -C ~/.bash/completion_scripts/pharo_completion -o default pharo
