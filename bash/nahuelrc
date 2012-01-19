@@ -1,3 +1,4 @@
 source ~/.bash/environment
 source ~/.bash/aliases
 source ~/.bash/completions
+source ~/.bash/prompt

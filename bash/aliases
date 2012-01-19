@@ -2,10 +2,10 @@
 alias ..='cd ..'
 
 # ls
-alias ls='ls -F'
-alias l='ls -lAh'
-alias ll='ls -l'
-alias la='ls -A'
+alias ls='ls -F --color=auto'
+alias l='ls -lAh --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -A --color=auto'
 
 # git
 alias gl='git pull'
@@ -21,3 +21,6 @@ alias gcl='git clone'
 alias c='clear'
 
 alias update-grub-fedora='grub2-mkconfig -o /boot/grub2/grub.cfg'
+
+alias mvn=mvn2
+alias mvn-test='mvn -Dsurefire.useFile=false test'

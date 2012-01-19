@@ -1,2 +1,5 @@
 # Pharo script completion
 complete -C ~/.bash/completion_scripts/pharo_completion -o default pharo
+
+# RVM completion
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
