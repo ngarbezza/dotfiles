@@ -6,6 +6,7 @@ alias ls='ls -F --color=auto'
 alias l='ls -lAh --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -A --color=auto'
+alias lg='l | grep'
 
 # git
 alias gl='git pull'
@@ -19,6 +20,8 @@ alias gs='git status'
 alias gcl='git clone'
 
 alias c='clear'
+
+alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 
 alias update-grub-fedora='grub2-mkconfig -o /boot/grub2/grub.cfg'
 
