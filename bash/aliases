@@ -19,6 +19,8 @@ alias gb='git branch'
 alias gs='git status'
 alias gcl='git clone'
 
+alias clear-svn='rm -rf `find . -type d -name .svn`'
+
 alias c='clear'
 
 alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | head
@@ -27,3 +29,5 @@ alias update-grub-fedora='grub2-mkconfig -o /boot/grub2/grub.cfg'
 
 alias mvn=mvn2
 alias mvn-test='mvn -Dsurefire.useFile=false test'
+
+alias process='ps fax | grep'

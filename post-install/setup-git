@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+import os
+name = raw_input('Name (Enter:skip): ')
+email = raw_input('Email (Enter:skip): ')
+if name: os.system('git config --global user.name ' + '"' + name +'"')
+if email: os.system('git config --global user.email ' + '"' + email +'"')
+os.system('git config --global core.filemode false')
+print('Git Configuration file updated successfully:')
+os.system('cat ~/.gitconfig')

@@ -1,4 +1,4 @@
-export PATH=$HOME/scripts:$HOME/software/apache-maven-2.2.1/bin:$PATH
+export PATH=$JAVA_HOME/bin:$HOME/scripts:$HOME/software/apache-maven-2.2.1/bin:$PATH
 export M2_REPO=$HOME/programming/maven-repo
 export JAVA_HOME=$HOME/software/jdk1.7.0
 export JENKINS_HOME=$HOME/programming/jenkins
