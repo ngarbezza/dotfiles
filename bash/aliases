@@ -18,10 +18,14 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gs='git status'
 alias gcl='git clone'
+alias ga='git add'
+alias gr='git rm'
 
+# SVN
 alias clear-svn='rm -rf `find . -type d -name .svn`'
 
 alias c='clear'
+alias r='source ~/.bashrc'
 
 alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 
@@ -31,3 +35,7 @@ alias mvn=mvn2
 alias mvn-test='mvn -Dsurefire.useFile=false test'
 
 alias process='ps fax | grep'
+
+# Gedit
+launch_gedit(){ gedit $1 & }
+alias g=launch_gedit
