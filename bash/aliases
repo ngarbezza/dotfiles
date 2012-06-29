@@ -3,7 +3,7 @@ alias ..='cd ..'
 
 # ls
 alias ls='ls -F --color=auto'
-alias l='ls -lAh --color=auto'
+alias l='ls -lAGh --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -A --color=auto'
 alias lg='l | grep'
@@ -39,3 +39,6 @@ alias process='ps fax | grep'
 # Gedit
 launch_gedit(){ gedit $1 & }
 alias g=launch_gedit
+
+# Nautilus
+alias n='nautilus .'
