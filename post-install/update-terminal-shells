@@ -2,4 +2,5 @@
 
 cp -R ../bash/ ~/.bash
 echo 'source ~/.bash/nahuelrc' >> ~/.bashrc
-source ~/.bashrc
+echo 'source ~/.bashrc' >> ~/.bash_profile
+source ~/.bash_profile
