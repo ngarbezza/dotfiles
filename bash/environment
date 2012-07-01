@@ -4,4 +4,4 @@ export JAVA_HOME=$HOME/software/jdk1.7.0
 export JENKINS_HOME=$HOME/programming/jenkins
 
 # RVM
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

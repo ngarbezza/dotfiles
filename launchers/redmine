@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+cd ~/software/redmine-2.0
+rails s -e production -p 3030
