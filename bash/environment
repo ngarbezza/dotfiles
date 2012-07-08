@@ -1,7 +1,8 @@
 export PATH=$HOME/.rvm/bin:$JAVA_HOME/bin:$HOME/scripts:$HOME/software/apache-maven-2.2.1/bin:$PATH
 export M2_REPO=$HOME/programming/maven-repo
-export JAVA_HOME=$HOME/software/jdk1.7.0
+export JAVA_HOME=$HOME/software-local/jdk1.7.0_05
 export JENKINS_HOME=$HOME/programming/jenkins
+export EDITOR=nano
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
