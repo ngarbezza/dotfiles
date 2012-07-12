@@ -95,7 +95,7 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = gedit
+  editor = nano
   filemode = false
 [advice]
   statusHints = false
