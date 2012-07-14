@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# -----------------------------
+# add-host
+#  Adds a host to /etc/hosts
+#
+#  add-host 127.0.0.1 my-machine
+# -----------------------------
+
+if [ -n "$1" ] && [ -n "$2" ]; then
+  echo "\n${1}\t${2}" | sudo tee -a /etc/hosts
+else
+  echo 'Missing IP and/or name. Try again'
+fi
