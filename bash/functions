@@ -1,1 +1,5 @@
+# CB clipboard utility
 source ~/.bash/function_scripts/cb
+
+# Git prompt
+source ~/.bash/completion_scripts/git-prompt.sh
