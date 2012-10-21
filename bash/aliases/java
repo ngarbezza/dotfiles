@@ -1,0 +1,2 @@
+alias mvn=mvn2
+alias mvn-test='mvn -Dsurefire.useFile=false test'

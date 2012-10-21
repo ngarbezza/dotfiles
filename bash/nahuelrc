@@ -1,5 +1,8 @@
-source ~/.bash/environment
-source ~/.bash/aliases
-source ~/.bash/completions
-source ~/.bash/prompt
-source ~/.bash/functions
+BASE_PATH=~/.bash
+
+source $BASE_PATH/environment
+source $BASE_PATH/aliases/base
+source $BASE_PATH/completions/base
+source $BASE_PATH/functions/base
+source $BASE_PATH/prompt/base
+

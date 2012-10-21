@@ -1,0 +1,8 @@
+ALIASES_PATH=$BASE_PATH/aliases
+
+source $ALIASES_PATH/unix
+source $ALIASES_PATH/git
+source $ALIASES_PATH/svn
+source $ALIASES_PATH/ruby
+source $ALIASES_PATH/java
+source $ALIASES_PATH/apps

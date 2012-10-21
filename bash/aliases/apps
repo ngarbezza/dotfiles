@@ -1,0 +1,9 @@
+# Gedit
+launch_gedit(){ gedit $@ & }
+alias g=launch_gedit
+
+# Nautilus
+alias n='nautilus .'
+
+# Firefox
+alias f='firefox'

@@ -1,0 +1,1 @@
+PS1="[$ICyan\u$Color_Off@$Cyan\h$IRed\$(__git_ps1)$Color_Off $BIYellow\W$Color_Off]\$ "

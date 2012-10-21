@@ -1,0 +1,15 @@
+# Rake / Rails
+alias rks='bundle exec rake spec'
+alias rksf='bundle exec rake spec:fast'
+alias rkc='bundle exec rake cucumber'
+alias rkg='bundle exec rake -T | grep'
+alias rkm='bundle exec rake db:migrate'
+alias rkmt='bundle exec rake db:migrate RAILS_ENV=test'
+alias rkmd='bundle exec rake db:migrate RAILS_ENV=development'
+alias rkr='bundle exec rake routes'
+alias rkrg='bundle exec rake routes | grep'
+
+# Bundler
+alias bdi='bundle install'
+alias bde='bundle exec'
+alias bdu='bundle update'

@@ -1,5 +1,0 @@
-# CB clipboard utility
-source ~/.bash/function_scripts/cb
-
-# Git prompt
-source ~/.bash/function_scripts/git-prompt.sh

@@ -1,0 +1,20 @@
+# cd
+alias ..='cd ..'
+alias ~='cd ~'
+
+# ls
+alias ls='ls -F --color=auto'
+alias l='ls -lAGh --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -A --color=auto'
+alias lg='l | grep'
+
+alias c='clear'
+alias r='source ~/.bashrc'
+
+alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+
+alias process='ps fax | grep'
+# TODO: ps faux | grep '[r]uby' for skipping the grep process itself
+# cannot possible with alias, implement a function or python script
+
