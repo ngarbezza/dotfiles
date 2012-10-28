@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+REPLACEMENTS = {
+  "á" => "\\\\\'a",
+  "é" => "\\\\\'e",
+  "í" => "\\\\\'i",
+  "ó" => "\\\\\'o",
+  "ú" => "\\\\\'u",
+  "ñ" => "\\~n",
+  "¿" => "?`",
+  "¡" => "!`"
+}
+
+$stdin.each_line do |line|
+  REPLACEMENTS.each { |k, v| line.gsub! k, v }
+  $stdout.puts line
+end
