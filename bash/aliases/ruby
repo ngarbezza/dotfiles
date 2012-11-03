@@ -1,4 +1,4 @@
-# Rake / Rails
+# Rake
 alias rks='bundle exec rake spec'
 alias rksf='bundle exec rake spec:fast'
 alias rkc='bundle exec rake cucumber'
@@ -13,3 +13,7 @@ alias rkrg='bundle exec rake routes | grep'
 alias bdi='bundle install'
 alias bde='bundle exec'
 alias bdu='bundle update'
+
+# Rails
+alias rs='rails s -p 3000'
+alias rs1='rails s -p 3001'
