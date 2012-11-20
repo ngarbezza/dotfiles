@@ -1,0 +1,3 @@
+[submodule "launchers/gedit-open"]
+	path = launchers/gedit-open
+	url = git://github.com/aaronsnoswell/gedit-open.git

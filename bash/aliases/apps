@@ -1,7 +1,3 @@
-# Gedit
-launch_gedit(){ gedit $@ 2> /dev/null & }
-alias g=launch_gedit
-
 # Nautilus
 alias n='nautilus .'
 
