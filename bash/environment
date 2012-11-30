@@ -2,7 +2,7 @@ export M2_REPO=$HOME/programming/maven-repo
 export JAVA_HOME=$HOME/software/jdk1.7.0_07
 export SBT_HOME=$HOME/software/sbt
 export JENKINS_HOME=$HOME/programming/jenkins
-export EDITOR=nano
+export EDITOR=vim
 export GEMSTONE=/opt/gemstone/product
 export PATH=$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$HOME/software/apache-maven-2.2.1/bin:$PATH
 export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"

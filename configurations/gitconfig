@@ -95,7 +95,7 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = nano
+  editor = vim
   filemode = false
 [advice]
   statusHints = false

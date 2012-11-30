@@ -1,2 +1,5 @@
 set number
 set numberwidth=3
+set colorcolumn=80
+
+syntax enable
