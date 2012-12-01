@@ -1,6 +1,7 @@
 ALIASES_PATH=$BASE_PATH/aliases
 
 source $ALIASES_PATH/unix
+source $ALIASES_PATH/arch
 source $ALIASES_PATH/git
 source $ALIASES_PATH/svn
 source $ALIASES_PATH/ruby
