@@ -1,5 +1,14 @@
 set number
 set numberwidth=3
 set colorcolumn=80
+set showtabline=2
+set path=.,,**
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
-syntax enable
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+syntax on
+filetype plugin indent on
