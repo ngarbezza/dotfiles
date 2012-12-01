@@ -10,3 +10,15 @@
 [submodule "configurations/vim/bundle/vim-fugitive"]
 	path = configurations/vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "configurations/vim/bundle/vim-surround"]
+	path = configurations/vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "configurations/vim/bundle/vim-repeat"]
+	path = configurations/vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "configurations/vim/bundle/vim-bundler"]
+	path = configurations/vim/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
+[submodule "configurations/vim/bundle/vim-commentary"]
+	path = configurations/vim/bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
