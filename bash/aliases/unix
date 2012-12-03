@@ -1,5 +1,7 @@
 # cd
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 alias ~='cd ~'
 
 # ls
@@ -11,6 +13,10 @@ alias lg='l | grep'
 
 alias c='clear'
 alias r='source ~/.bashrc'
+
+alias map='xargs -n1'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T'
 
 alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 
