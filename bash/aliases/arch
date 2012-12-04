@@ -1,1 +1,7 @@
+alias sudo='sudo '
+
+alias search='yaourt -Ss'
+alias upgrade='yaourt -Syu'
 alias autoremove='sudo pacman -Rs $(pacman -Qtdq)'
+
+alias psg='ps -e | grep'

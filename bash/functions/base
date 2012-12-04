@@ -1,3 +1,5 @@
 FUNCTIONS_PATH=$BASE_PATH/functions
 
+shopt -s autocd
+
 source $FUNCTIONS_PATH/cb
