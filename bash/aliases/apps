@@ -1,3 +1,4 @@
 alias n='nautilus .'
 alias f='firefox'
 alias v='vim'
+alias vimconfig='v ~/.vimrc'
