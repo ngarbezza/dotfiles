@@ -40,3 +40,6 @@
 [submodule "configurations/vim/bundle/vim-autoclose"]
 	path = configurations/vim/bundle/vim-autoclose
 	url = git://github.com/Townk/vim-autoclose.git
+[submodule "configurations/vim/bundle/vim-gobstones"]
+	path = configurations/vim/bundle/vim-gobstones
+	url = git://github.com/ngarbezza/vim-gobstones.git
