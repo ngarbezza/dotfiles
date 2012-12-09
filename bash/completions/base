@@ -4,7 +4,10 @@ source $COMPLETIONS_PATH/make_completion_wrapper
 source $COMPLETIONS_PATH/git
 
 # Pharo script completion
-complete -C $COMPLETIONS_PATH/pharo_completion -o default pharo
+complete -C $COMPLETIONS_PATH/pharo-completion -o default pharo
 
 # RVM completion
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+
+# Rake (cached) completion
+source $COMPLETIONS_PATH/rake-completion
