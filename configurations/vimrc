@@ -20,7 +20,7 @@ inoremap <A-Down>  <Esc>:m .+1<CR>==gi
 inoremap <A-Up>    <Esc>:m .-2<CR>==gi
 vnoremap <A-Down>  :m '>+1<CR>gv=gv
 vnoremap <A-Up>    :m '<-2<CR>gv=gv
-"   
+"
 "   * navigate tabs
 "
 nnoremap <A-Left>  :tabprevious<CR>
@@ -29,6 +29,10 @@ nnoremap <A-n>     :tabnew<CR>
 inoremap <A-Left>  <Esc>:tabprevious<CR>i
 inoremap <A-Right> <Esc>:tabnext<CR>i
 inoremap <A-n>     <Esc>:tabnew<CR>
+"
+"   * formatting
+"
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
 "
 "   * snippets
 "

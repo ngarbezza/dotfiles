@@ -26,6 +26,8 @@ alias moreusedcommands=history | awk '{print $2}' | sort | uniq -c | sort -rn | 
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
 
+alias :q='exit'
+
 alias process='ps fax | grep'
 # TODO: ps faux | grep '[r]uby' for skipping the grep process itself
 # cannot possible with alias, implement a function or python script
