@@ -2,4 +2,7 @@ FUNCTIONS_PATH=$BASE_PATH/functions
 
 shopt -s autocd
 
+# calculator: "? 3+13*3" will print 42
+? () { echo "$*" | bc -l; }
+
 source $FUNCTIONS_PATH/cb

@@ -1,7 +1,10 @@
 alias sudo='sudo '
 
-alias search='yaourt -Ss'
-alias upgrade='yaourt -Syu'
-alias autoremove='sudo pacman -Rs $(pacman -Qtdq)'
+alias search-package='yaourt -Ss'
+alias install-package='yaourt -S'
+alias upgrade-packages='yaourt -Syu'
+alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
 
 alias psg='ps -e | grep'
+
+alias blank='sleep 1 && xset dpms force off'
