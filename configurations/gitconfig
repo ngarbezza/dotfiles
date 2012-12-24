@@ -21,8 +21,8 @@
   c = commit -m                     # commit with message
   ca = commit -am                   # commit all with message
   ci = commit                       # commit
-  amend = commit --amend            # ammend your last commit
-  ammend = commit --amend           # ammend your last commit
+  amend-m = commit --amend          # ammend your last commit (custom msg)
+  amend = commit --amend -C HEAD    # ammens your last commit (previous msg)
 
   # checkout
   co = checkout                     # checkout
@@ -80,6 +80,7 @@
   svnr = svn rebase
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
+  rmdf = !git rm $(git ls-files --deleted)
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [merge]
