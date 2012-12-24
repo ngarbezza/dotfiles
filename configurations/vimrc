@@ -29,6 +29,8 @@ nnoremap <A-n>     :tabnew<CR>
 inoremap <A-Left>  <Esc>:tabprevious<CR>i
 inoremap <A-Right> <Esc>:tabnext<CR>i
 inoremap <A-n>     <Esc>:tabnew<CR>
+nnoremap <F4>      :tabf<Space>
+inoremap <F4>      <Esc>:tabf<Space>
 "
 "   * formatting
 "

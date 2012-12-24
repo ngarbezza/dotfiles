@@ -6,3 +6,4 @@ shopt -s autocd
 ? () { echo "$*" | bc -l; }
 
 source $FUNCTIONS_PATH/cb
+source $FUNCTIONS_PATH/extract
