@@ -31,6 +31,8 @@ inoremap <A-Right> <Esc>:tabnext<CR>i
 inoremap <A-n>     <Esc>:tabnew<CR>
 nnoremap <F4>      :tabf<Space>
 inoremap <F4>      <Esc>:tabf<Space>
+nnoremap <F6>      :NERDTreeTabsToggle<CR>
+inoremap <F6>      <Esc>:NERDTreeTabsToggle<CR>
 "
 "   * formatting
 "
