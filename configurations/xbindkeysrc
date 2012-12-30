@@ -1,0 +1,27 @@
+###################
+# MULTIMEDIA KEYS #
+###################
+
+"mocp --previous"
+  m:0x4 + c:122
+  Control + XF86AudioLowerVolume
+
+"mocp --next"
+  m:0x4 + c:123
+  Control + XF86AudioRaiseVolume
+
+"mocp --stop"
+  m:0x4 + c:233
+  Control + XF86MonBrightnessUp
+
+"mocp --play"
+  m:0x4 + c:232
+  Control + XF86MonBrightnessDown
+
+#########################
+# APPLICATION LAUNCHERS #
+#########################
+
+"gnome-terminal"
+  m:0xc + c:28
+  Control+Alt + t
