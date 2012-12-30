@@ -2,8 +2,13 @@ FUNCTIONS_PATH=$BASE_PATH/functions
 
 shopt -s autocd
 
+# History
+export HISTSIZE=10000
+shopt -s histappend
+
 # calculator: "? 3+13*3" will print 42
 ? () { echo "$*" | bc -l; }
 
 source $FUNCTIONS_PATH/cb
 source $FUNCTIONS_PATH/extract
+source $FUNCTIONS_PATH/moc

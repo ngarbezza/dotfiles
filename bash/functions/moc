@@ -1,0 +1,13 @@
+_mocp_toggle_play_pause() {
+  case `mocp -Q %state` in
+    STOP)  mocp --play         ;;
+    PLAY)  mocp --toggle-pause ;;
+    PAUSE) mocp --toggle-pause ;;
+  esac
+}
+
+_mocp_notify_song() {
+  artist=`mocp -Q %artist`
+  song=`mocp -Q %song`
+  notify-send "$song, by $artist"
+}
