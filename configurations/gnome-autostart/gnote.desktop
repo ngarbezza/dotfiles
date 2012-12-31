@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Gnote
+Comment=Starts Gnote in background
+Exec=/usr/bin/gnote
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-Phase=Application
