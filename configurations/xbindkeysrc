@@ -25,3 +25,37 @@
 "gnome-terminal"
   m:0xc + c:28
   Control+Alt + t
+
+"blank"
+  m:0xc + c:56
+  Control+Alt + b
+
+"firefox"
+  m:0xc + c:41
+  Control+Alt + f
+
+"nautilus ~"
+  m:0xc + c:57
+  Control+Alt + n
+
+"gnome-calculator"
+  m:0xc + c:54
+  Control+Alt + c
+
+"keepassx"
+  m:0xc + c:45
+  Control+Alt + k
+
+"gnome-terminal -e vim"
+  m:0xc + c:55
+  Control+Alt + v
+
+"chromium"
+  m:0xc + c:25
+  Control+Alt + w:w
+
+###############
+# SCREENSHOTS #
+###############
+
+# TODO
