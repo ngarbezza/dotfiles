@@ -6,6 +6,7 @@ fi
 
 alias search-package='yaourt -Ss'
 alias install-package='yaourt -S'
+alias remove-package='sudo pacman -Rs'
 alias upgrade-packages='yaourt -Syu'
 alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
 
