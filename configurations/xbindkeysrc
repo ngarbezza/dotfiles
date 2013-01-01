@@ -14,7 +14,7 @@
   m:0x4 + c:233
   Control + XF86MonBrightnessUp
 
-"mocp --play"
+". ~/.bash/functions/moc && _mocp_toggle_play_pause"
   m:0x4 + c:232
   Control + XF86MonBrightnessDown
 
@@ -53,6 +53,10 @@
 "chromium"
   m:0xc + c:25
   Control+Alt + w:w
+
+"gnome-terminal -e mocp"
+  m:0xc + c:58
+  Control+Alt + m
 
 ###############
 # SCREENSHOTS #
