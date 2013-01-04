@@ -1,4 +1,6 @@
 alias n='nautilus .'
 alias f='firefox'
 alias v='vim'
+alias sv='sudo vim'
 alias vimconfig='v ~/.vimrc'
+alias nowplaying='_mocp_now_playing'

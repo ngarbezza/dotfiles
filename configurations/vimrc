@@ -1,15 +1,18 @@
 " Settings
+set nocompatible
+set encoding=utf-8
 set number
 set numberwidth=3
-set colorcolumn=80
 set showtabline=2
-set path=.,,**
-set smartindent
-set tabstop=2
 set shiftwidth=2
+set tabstop=2
+set smartindent
+set colorcolumn=80
+set path=.,,**
 set expandtab
+set showcmd
+set autoread
 set title
-set nocompatible
 set backspace=indent,eol,start
 set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
@@ -46,6 +49,8 @@ nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:
 "   * snippets
 "
 imap <C-l> <Space>=><Space>
+
+let g:Powerline_theme="default"
 
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim

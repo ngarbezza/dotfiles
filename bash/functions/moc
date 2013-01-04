@@ -6,8 +6,10 @@ _mocp_toggle_play_pause() {
   esac
 }
 
-_mocp_notify_song() {
-  artist=`mocp -Q %artist`
-  song=`mocp -Q %song`
-  notify-send "$song, by $artist"
+_mocp_now_playing() {
+  if [ `mocp -Q %state` == STOP ]; then
+    echo 'nothing'
+  else
+    mocp -Q "%song by %artist from %album"
+  fi
 }

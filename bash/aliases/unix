@@ -21,7 +21,6 @@ alias path='echo -e ${PATH//:/\\n}'
 alias now='date +"%T'
 
 alias hist='history | grep'
-alias moreusedcommands="history | awk '{print $2}' | sort | uniq -c | sort -rn | head"
 
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
