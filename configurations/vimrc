@@ -51,6 +51,10 @@ nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:
 "
 imap <C-l> <Space>=><Space>
 
+"   * Leader key mappings
+nnoremap <Leader>gs  :Gstatus<CR>
+
+
 let g:Powerline_theme="default"
 
 " Pathogen
