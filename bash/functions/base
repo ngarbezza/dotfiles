@@ -1,24 +1,6 @@
 FUNCTIONS_PATH=$BASE_PATH/functions
 
-shopt -s autocd
-
-# History
-export HISTSIZE=10000
-shopt -s histappend
-
-# After each command, save and reload history
-export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
-
-function swap() {
-  local TMPFILE=tmp.$$
-  mv "$1" $TMPFILE
-  mv "$2" "$1"
-  mv $TMPFILE "$2"
-}
-
-# calculator: "? 3+13*3" will print 42
-? () { echo "$*" | bc -l; }
-
 source $FUNCTIONS_PATH/cb
+source $FUNCTIONS_PATH/bash
 source $FUNCTIONS_PATH/extract
 source $FUNCTIONS_PATH/moc
