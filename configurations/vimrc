@@ -43,6 +43,21 @@ inoremap <F4>      <Esc>:tabf<Space>
 nnoremap <F6>      :NERDTreeTabsToggle<CR>
 inoremap <F6>      <Esc>:NERDTreeTabsToggle<CR>
 "
+"   * navigate viewports
+"
+" nnoremap <A-S-v>     :vsp<CR>
+" nnoremap <A-S-h>     :sp<CR>
+nnoremap <A-S-Up>    <C-w>k
+nnoremap <A-S-Down>  <C-w>j
+nnoremap <A-S-Left>  <C-w>h
+nnoremap <A-S-Right> <C-w>l
+" inoremap <A-S-v>     <Esc>:vsp<CR>i
+" inoremap <A-S-h>     <Esc>:sp<CR>i
+inoremap <A-S-Up>    <Esc><C-w>ki
+inoremap <A-S-Down>  <Esc><C-w>ji
+inoremap <A-S-Left>  <Esc><C-w>hi
+inoremap <A-S-Right> <Esc><C-w>li
+"
 "   * formatting
 "
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
