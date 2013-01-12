@@ -12,12 +12,17 @@ set path=.,,**
 set expandtab
 set showcmd
 set autoread
+set autowrite
 set title
 set backspace=indent,eol,start
 set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 set laststatus=2
 set clipboard=unnamed
+set ignorecase
+set smartcase
+set scrolloff=3
+set term=xterm-256color
 
 " Keymaps
 "
@@ -65,10 +70,14 @@ nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:
 "   * snippets
 "
 imap <C-l> <Space>=><Space>
-
-"   * Leader key mappings
+"
+"   * <leader> key mappings
+"
 nnoremap <Leader>gs  :Gstatus<CR>
-
+"
+"   * text handling
+"
+nnoremap Y y$
 
 let g:Powerline_theme="default"
 
