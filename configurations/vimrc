@@ -23,6 +23,9 @@ set ignorecase
 set smartcase
 set scrolloff=3
 set term=xterm-256color
+set visualbell
+set listchars=tab:▸\ ,eol:¬,trail:⋅,nbsp:⋅
+set mouse=a
 
 " Keymaps
 "
@@ -43,21 +46,19 @@ nnoremap <A-n>     :tabnew<CR>
 inoremap <A-Left>  <Esc>:tabprevious<CR>i
 inoremap <A-Right> <Esc>:tabnext<CR>i
 inoremap <A-n>     <Esc>:tabnew<CR>
+nnoremap <F3>      :tabe<Space>
 nnoremap <F4>      :tabf<Space>
+inoremap <F3>      <Esc>:tabe<Space>
 inoremap <F4>      <Esc>:tabf<Space>
 nnoremap <F6>      :NERDTreeTabsToggle<CR>
 inoremap <F6>      <Esc>:NERDTreeTabsToggle<CR>
 "
 "   * navigate viewports
 "
-" nnoremap <A-S-v>     :vsp<CR>
-" nnoremap <A-S-h>     :sp<CR>
 nnoremap <A-S-Up>    <C-w>k
 nnoremap <A-S-Down>  <C-w>j
 nnoremap <A-S-Left>  <C-w>h
 nnoremap <A-S-Right> <C-w>l
-" inoremap <A-S-v>     <Esc>:vsp<CR>i
-" inoremap <A-S-h>     <Esc>:sp<CR>i
 inoremap <A-S-Up>    <Esc><C-w>ki
 inoremap <A-S-Down>  <Esc><C-w>ji
 inoremap <A-S-Left>  <Esc><C-w>hi
@@ -74,11 +75,15 @@ imap <C-l> <Space>=><Space>
 "   * <leader> key mappings
 "
 nnoremap <Leader>gs  :Gstatus<CR>
+nnoremap <Leader>gd  :Gdiff<CR>
+nnoremap <Leader>h   :set hlsearch!<CR>
+nnoremap <Leader>sh  :set list!<CR>
+nnoremap <Leader>wh  :sp<CR>
+nnoremap <Leader>wv  :vsp<CR>
 "
 "   * text handling
 "
 nnoremap Y y$
-
 let g:Powerline_theme="default"
 
 " Pathogen
