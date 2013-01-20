@@ -49,3 +49,6 @@
 [submodule "configurations/vim/bundle/vim-powerline"]
 	path = configurations/vim/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
+[submodule "configurations/vim/bundle/vim-octopress"]
+	path = configurations/vim/bundle/vim-octopress
+	url = git://github.com/tangledhelix/vim-octopress.git
