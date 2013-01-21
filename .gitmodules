@@ -52,3 +52,9 @@
 [submodule "configurations/vim/bundle/vim-octopress"]
 	path = configurations/vim/bundle/vim-octopress
 	url = git://github.com/tangledhelix/vim-octopress.git
+[submodule "configurations/vim/bundle/syntastic"]
+	path = configurations/vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "configurations/vim/bundle/vim-css-color"]
+	path = configurations/vim/bundle/vim-css-color
+	url = git://github.com/skammer/vim-css-color.git
