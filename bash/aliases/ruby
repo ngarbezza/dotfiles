@@ -1,4 +1,5 @@
 # Rake
+alias rk='bundle exec rake'
 alias rks='bundle exec rake spec'
 alias rksf='bundle exec rake spec:fast'
 alias rkc='bundle exec rake cucumber'
