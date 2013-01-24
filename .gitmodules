@@ -58,3 +58,6 @@
 [submodule "configurations/vim/bundle/vim-css-color"]
 	path = configurations/vim/bundle/vim-css-color
 	url = git://github.com/skammer/vim-css-color.git
+[submodule "configurations/vim/bundle/vim-ruby-refactoring"]
+	path = configurations/vim/bundle/vim-ruby-refactoring
+	url = git://github.com/ecomba/vim-ruby-refactoring.git
