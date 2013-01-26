@@ -78,6 +78,7 @@ nnoremap <Leader>gs  :Gstatus<CR>
 nnoremap <Leader>gd  :Gdiff<CR>
 nnoremap <Leader>h   :set hlsearch!<CR>
 nnoremap <Leader>sh  :set list!<CR>
+nnoremap <Leader>ss  :set syntax=
 nnoremap <Leader>wh  :sp<CR>
 nnoremap <Leader>wv  :vsp<CR>
 "
