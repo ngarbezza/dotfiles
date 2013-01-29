@@ -1,0 +1,7 @@
+octopress-new-post() {
+  rake new_post["$@"]
+}
+
+octopress-deploy() {
+  rake generate && rake deploy
+}
