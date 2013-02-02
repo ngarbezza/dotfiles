@@ -67,3 +67,6 @@
 [submodule "configurations/vim/bundle/tagbar"]
 	path = configurations/vim/bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "configurations/vim/bundle/lushtags"]
+	path = configurations/vim/bundle/lushtags
+	url = git://github.com/bitc/lushtags.git
