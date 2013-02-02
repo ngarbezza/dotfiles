@@ -1,6 +1,7 @@
 # Rake
 alias rk='bundle exec rake'
 alias rks='bundle exec rake spec'
+alias rksc='COVERAGE=true bundle exec rake spec'
 alias rksf='bundle exec rake spec:fast'
 alias rkc='bundle exec rake cucumber'
 alias rkt='bundle exec rake -T'
