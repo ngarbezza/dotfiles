@@ -64,3 +64,6 @@
 [submodule "configurations/vim/bundle/vim-abolish"]
 	path = configurations/vim/bundle/vim-abolish
 	url = git://github.com/tpope/vim-abolish.git
+[submodule "configurations/vim/bundle/tagbar"]
+	path = configurations/vim/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git

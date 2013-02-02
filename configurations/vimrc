@@ -86,6 +86,10 @@ nnoremap <Leader>wv  :vsp<CR>
 "
 nnoremap Y y$
 let g:Powerline_theme="default"
+"
+"   * tags
+"
+nmap <F8> :TagbarToggle<CR>
 
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
