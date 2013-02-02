@@ -1,5 +1,8 @@
 # mk and ch dir
-mcd() { mkdir -p "$1" && cd "$1" }
+mcd() {
+  mkdir -p "$1"
+  cd "$1"
+}
 
 # auto cd
 shopt -s autocd
@@ -20,5 +23,5 @@ swap() {
 }
 
 # calculator: "? 3+13*3" will print 42
-?() { echo "$*" | bc -l; }
+? () { echo "$*" | bc -l; }
 

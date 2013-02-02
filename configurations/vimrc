@@ -26,10 +26,15 @@ set term=xterm-256color
 set visualbell
 set listchars=tab:▸\ ,eol:¬,trail:⋅,nbsp:⋅
 set mouse=a
+set timeoutlen=500  " Time to wait after ESC (default causes an annoying delay)
 
 " Keymaps
 "
-"   * move lines up/down
+"  * general
+"
+map ; :
+"
+"  * move lines up/down
 "
 nnoremap <A-Down>  :m .+1<CR>==
 nnoremap <A-Up>    :m .-2<CR>==
@@ -38,7 +43,7 @@ inoremap <A-Up>    <Esc>:m .-2<CR>==gi
 vnoremap <A-Down>  :m '>+1<CR>gv=gv
 vnoremap <A-Up>    :m '<-2<CR>gv=gv
 "
-"   * navigate tabs
+"  * navigate tabs
 "
 nnoremap <A-Left>  :tabprevious<CR>
 nnoremap <A-Right> :tabnext<CR>
@@ -53,7 +58,7 @@ inoremap <F4>      <Esc>:tabf<Space>
 nnoremap <F6>      :NERDTreeTabsToggle<CR>
 inoremap <F6>      <Esc>:NERDTreeTabsToggle<CR>
 "
-"   * navigate viewports
+"  * navigate viewports
 "
 nnoremap <A-S-Up>    <C-w>k
 nnoremap <A-S-Down>  <C-w>j
@@ -64,15 +69,15 @@ inoremap <A-S-Down>  <Esc><C-w>ji
 inoremap <A-S-Left>  <Esc><C-w>hi
 inoremap <A-S-Right> <Esc><C-w>li
 "
-"   * formatting
+"  * formatting
 "
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
 "
-"   * snippets
+"  * snippets
 "
 imap <C-l> <Space>=><Space>
 "
-"   * <leader> key mappings
+"  * <leader> key mappings
 "
 nnoremap <Leader>gs  :Gstatus<CR>
 nnoremap <Leader>gd  :Gdiff<CR>
@@ -82,14 +87,18 @@ nnoremap <Leader>ss  :set syntax=
 nnoremap <Leader>wh  :sp<CR>
 nnoremap <Leader>wv  :vsp<CR>
 "
-"   * text handling
+"  * text handling
 "
 nnoremap Y y$
-let g:Powerline_theme="default"
+" Enter a blank line below/above cursor in Normal mode.
+nmap ,o o<Esc>k
+nmap ,O O<Esc>j
 "
-"   * tags
+"  * tags
 "
 nmap <F8> :TagbarToggle<CR>
+
+" Tagbar
 let g:tagbar_type_markdown = {
   \ 'ctagstype' : 'markdown',
   \ 'kinds' : [
@@ -98,6 +107,9 @@ let g:tagbar_type_markdown = {
     \ 'k:Heading_L3'
   \ ]
 \ }
+
+" Powerline
+let g:Powerline_theme="default"
 
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
