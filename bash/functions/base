@@ -5,3 +5,4 @@ source $FUNCTIONS_PATH/bash
 source $FUNCTIONS_PATH/extract
 source $FUNCTIONS_PATH/moc
 source $FUNCTIONS_PATH/octopress
+source $FUNCTIONS_PATH/ruby
