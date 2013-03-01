@@ -58,6 +58,10 @@
   m:0xc + c:58
   Control+Alt + m
 
+"gnome-screensaver-command -l"
+  m:0xc + c:46
+  Control+Alt + l
+
 ###############
 # SCREENSHOTS #
 ###############
@@ -84,4 +88,4 @@
 
 "gnome-screenshot -a -c"
   m:0x5 + c:107
-  Control+Shift + Print"
+  Control+Shift + Print
