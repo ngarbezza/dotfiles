@@ -27,3 +27,13 @@ swap() {
 
 # Checks existence of a command
 command_exists () { type "$1" &> /dev/null ; }
+
+# Run command silently
+quiet () { $* &> /dev/null & }
+
+# Creates a backup of a file
+backup () {
+  local filename=$1
+  local filetime=$(date +%Y%m%d_%H%M%S)
+  cp ${filename} ${filename}_${filetime}
+}
