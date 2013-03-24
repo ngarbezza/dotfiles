@@ -32,3 +32,5 @@ alias process='ps fax | grep'
 # cannot possible with alias, implement a function or python script
 
 alias mounted='mount | column -t'
+
+alias +x='chmod +x'

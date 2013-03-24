@@ -1,5 +1,5 @@
-# mk and ch dir
-mcd() {
+# create and change dir
+mcd () {
   mkdir -p "$1"
   cd "$1"
 }
@@ -25,3 +25,5 @@ swap() {
 # calculator: "? 3+13*3" will print 42
 ? () { echo "$*" | bc -l; }
 
+# Checks existence of a command
+command_exists () { type "$1" &> /dev/null ; }
