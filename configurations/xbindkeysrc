@@ -26,10 +26,6 @@
   m:0xc + c:28
   Control+Alt + t
 
-"blank"
-  m:0xc + c:56
-  Control+Alt + b
-
 "firefox"
   m:0xc + c:41
   Control+Alt + f
@@ -58,7 +54,7 @@
   m:0xc + c:58
   Control+Alt + m
 
-"gnome-screensaver-command -l"
+"xscreensaver-command --lock"
   m:0xc + c:46
   Control+Alt + l
 
