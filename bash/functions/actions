@@ -1,0 +1,23 @@
+_open_terminal_emulator() {
+  gnome-terminal
+}
+
+_open_text_editor() {
+  gnome-terminal -e vim
+}
+
+_open_music_player() {
+  gnome-terminal -e mocp
+}
+
+_lock_screen() {
+  xscreensaver-command --lock
+}
+
+_dim_brightness() {
+  light -s 10
+}
+
+_aug_brightness() {
+  light -a 10
+}

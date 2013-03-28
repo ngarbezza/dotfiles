@@ -5,3 +5,7 @@ octopress-new-post() {
 octopress-deploy() {
   rake generate && rake deploy
 }
+
+octopress-preview() {
+  rake preview
+}
