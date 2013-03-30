@@ -8,7 +8,7 @@ feh --bg-scale "/datos/Fotos-Nahuel/2012/11 - Noviembre/Smalltalks 2012/nahuelG/
 
 neap &
 
-kupfer &
+kupfer --nosplash &
 
 gnote &
 
