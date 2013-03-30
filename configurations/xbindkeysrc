@@ -70,26 +70,10 @@
   m:0xc + c:46
   Control+Alt + l
 
-"gnome-screenshot"
+". ~/.bash/functions/actions && _take_screenshot_full_screen"
   m:0x0 + c:107
   Print
 
-"gnome-screenshot -a"
+". ~/.bash/functions/actions && _take_screenshot_selection"
   m:0x1 + c:107
   Shift + Print
-
-"gnome-screenshot -w"
-  m:0x8 + c:107
-  Alt + Print
-
-"gnome-screenshot -c"
-  m:0x4 + c:107
-  Control + Print
-
-"gnome-screenshot -w -c"
-  m:0xc + c:107
-  Control+Alt + Print
-
-"gnome-screenshot -a -c"
-  m:0x5 + c:107
-  Control+Shift + Print

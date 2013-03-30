@@ -42,6 +42,17 @@ _aug_brightness() {
   light -a 10
 }
 
+_take_screenshot_full_screen() {
+  scrot '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f ~/screenshots'
+}
+
+_take_screenshot_selection() {
+  # Workaround to avoid
+  # "giblib error: couldn't grab keyboard:Resource temporarily unavailable"
+  sleep 0.1
+  DISPLAY=:0.0 scrot '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f ~/screenshots' -b -s
+}
+
 # Music
 
 _open_music_player() {
