@@ -49,17 +49,17 @@ _open_music_player() {
 }
 
 _toggle_play_song() {
-  mpc toggle
+  sonata pp
 }
 
 _stop_song() {
-  mpc stop
+  sonata stop
 }
 
 _prev_song() {
-  mpc prev
+  sonata prev
 }
 
 _next_song() {
-  mpc next
+  sonata next
 }
