@@ -1,20 +1,20 @@
-###################
-# MULTIMEDIA KEYS #
-###################
+#########
+# MUSIC #
+#########
 
-"mocp --previous"
+". ~/.bash/functions/actions && _prev_song"
   m:0x4 + c:122
   Control + XF86AudioLowerVolume
 
-"mocp --next"
+". ~/.bash/functions/actions && _next_song"
   m:0x4 + c:123
   Control + XF86AudioRaiseVolume
 
-"mocp --stop"
+". ~/.bash/functions/actions && _stop_song"
   m:0x4 + c:233
   Control + XF86MonBrightnessUp
 
-". ~/.bash/functions/moc && _mocp_toggle_play_pause"
+". ~/.bash/functions/actions && _toggle_play_song"
   m:0x4 + c:232
   Control + XF86MonBrightnessDown
 

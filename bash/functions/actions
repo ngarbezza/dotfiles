@@ -1,3 +1,5 @@
+# Common tools
+
 _open_terminal_emulator() {
   gnome-terminal
 }
@@ -6,9 +8,7 @@ _open_text_editor() {
   gnome-terminal -e vim
 }
 
-_open_music_player() {
-  gnome-terminal -e mocp
-}
+# Screen/Brightness
 
 _lock_screen() {
   xscreensaver-command --lock
@@ -20,4 +20,26 @@ _dim_brightness() {
 
 _aug_brightness() {
   light -a 10
+}
+
+# Music
+
+_open_music_player() {
+  sonata
+}
+
+_toggle_play_song() {
+  mpc toggle
+}
+
+_stop_song() {
+  mpc stop
+}
+
+_prev_song() {
+  mpc prev
+}
+
+_next_song() {
+  mpc next
 }
