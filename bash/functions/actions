@@ -8,6 +8,26 @@ _open_text_editor() {
   gnome-terminal -e vim
 }
 
+_open_primary_browser() {
+  firefox
+}
+
+_open_secondary_browser() {
+  chromium
+}
+
+_open_calculator() {
+  gnome-calculator
+}
+
+_open_file_manager() {
+  nautilus ~
+}
+
+_open_password_manager() {
+  keepassx
+}
+
 # Screen/Brightness
 
 _lock_screen() {

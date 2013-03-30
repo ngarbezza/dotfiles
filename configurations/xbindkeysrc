@@ -26,19 +26,19 @@
   m:0xc + c:28
   Control+Alt + t
 
-"firefox"
+". ~/.bash/functions/actions && _open_primary_browser"
   m:0xc + c:41
   Control+Alt + f
 
-"nautilus ~"
+". ~/.bash/functions/actions && _open_file_manager"
   m:0xc + c:57
   Control+Alt + n
 
-"gnome-calculator"
+". ~/.bash/functions/actions && _open_calculator"
   m:0xc + c:54
   Control+Alt + c
 
-"keepassx"
+". ~/.bash/functions/actions && _open_password_manager"
   m:0xc + c:45
   Control+Alt + k
 
@@ -46,7 +46,7 @@
   m:0xc + c:55
   Control+Alt + v
 
-"chromium"
+". ~/.bash/functions/actions && _open_secondary_browser"
   m:0xc + c:25
   Control+Alt + w:w
 
