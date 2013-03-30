@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=python3 /home/nahuel/scripts/mocp-notify.py
-Hidden=false
-X-GNOME-Autostart-enabled=true
-Name[en_US]=mocp notify
-Name=mocp notify
-Comment[en_US]=
-Comment=

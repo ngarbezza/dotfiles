@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=python3 /home/nahuel/scripts/mocp-scrobbler.py -d
-Hidden=false
-X-GNOME-Autostart-enabled=true
-Name[en_US]=mocp scrobbler
-Name=mocp scrobbler
-Comment[en_US]=
-Comment=
