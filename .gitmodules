@@ -73,3 +73,6 @@
 [submodule "configurations/vim/bundle/vim-matchit"]
 	path = configurations/vim/bundle/vim-matchit
 	url = git://github.com/tsaleh/vim-matchit.git
+[submodule "configurations/vim/bundle/vim-characterize"]
+	path = configurations/vim/bundle/vim-characterize
+	url = git://github.com/tpope/vim-characterize.git
