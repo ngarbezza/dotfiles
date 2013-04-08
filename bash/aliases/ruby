@@ -25,3 +25,6 @@ alias rs1='rails s -p 3001'
 alias rails2-s='ruby script/server'
 alias rails2-c='ruby script/console'
 alias rails2-g='ruby script/generate'
+
+# rbenv
+alias rh='rbenv rehash'

@@ -76,3 +76,9 @@
 [submodule "configurations/vim/bundle/vim-characterize"]
 	path = configurations/vim/bundle/vim-characterize
 	url = git://github.com/tpope/vim-characterize.git
+[submodule "utilities/rbenv"]
+	path = utilities/rbenv
+	url = git://github.com/sstephenson/rbenv.git
+[submodule "utilities/ruby-build"]
+	path = utilities/ruby-build
+	url = git://github.com/sstephenson/ruby-build.git

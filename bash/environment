@@ -5,10 +5,11 @@ export MVN_HOME=$HOME/software/apache-maven-2.2.1
 export JENKINS_HOME=$HOME/code/jenkins
 export CABAL_HOME=$HOME/.cabal
 export GEMSTONE=/opt/gemstone/product
+export RBENV_HOME=$HOME/.rbenv
  
 export EDITOR=vim
 
-export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$MVN_HOME/bin:$PATH
+export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$MVN_HOME/bin:$RBENV_HOME/bin:$PATH
 
 export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
 
@@ -17,5 +18,4 @@ export OPENSSL_CONF=/etc/ssl/openssl.cnf
 # Load Gemstone/S environment
 source /opt/gemstone/product/seaside/defSeaside
 
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+eval "$(rbenv init -)"
