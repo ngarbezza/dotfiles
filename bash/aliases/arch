@@ -1,9 +1,5 @@
 alias sudo='sudo '
 
-if type "pacman-color" &> /dev/null; then
-  alias pacman='pacman-color'
-fi
-
 alias search-package='yaourt -Ss'
 alias install-package='yaourt -S'
 alias remove-package='sudo pacman -Rs'
