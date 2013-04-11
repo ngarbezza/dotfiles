@@ -1,0 +1,2 @@
+colorscheme darkblue
+autocmd VimEnter * NERDTreeClose
