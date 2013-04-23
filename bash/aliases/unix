@@ -34,3 +34,5 @@ alias process='ps fax | grep'
 alias mounted='mount | column -t'
 
 alias +x='chmod +x'
+
+alias k='kill -9'

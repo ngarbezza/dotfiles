@@ -9,3 +9,7 @@ octopress-deploy() {
 octopress-preview() {
   rake preview
 }
+
+octopress-posts-count() {
+  ls source/_posts | wc -l
+}
