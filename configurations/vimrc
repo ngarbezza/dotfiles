@@ -27,6 +27,8 @@ set visualbell
 set listchars=tab:▸\ ,eol:¬,trail:⋅,nbsp:⋅
 set mouse=a
 set timeoutlen=500  " Time to wait after ESC (default causes an annoying delay)
+set backupdir=~/temp/vimbackups,.
+set directory=~/temp/vimbackups,.
 
 " Keymaps
 "
