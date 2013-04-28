@@ -1,11 +1,11 @@
 # Common tools
 
 _open_terminal_emulator() {
-  gnome-terminal
+  xterm
 }
 
 _open_text_editor() {
-  gnome-terminal -e vim
+  xterm -e vim
 }
 
 _open_primary_browser() {
@@ -52,6 +52,8 @@ _take_screenshot_selection() {
   sleep 0.1
   DISPLAY=:0.0 scrot '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f ~/screenshots' -b -s
 }
+
+# TODO take screenshot of current window
 
 # Music
 
