@@ -5,7 +5,7 @@ xterm*faceSize: 10
 
 xterm*loginShell: true
 
-xterm*foreground: rgb:a8/a8/a8
+xterm*foreground: rgb:cc/cc/cc
 xterm*background: rgb:00/00/00
 xterm*color0: rgb:00/00/00
 xterm*color1: rgb:a8/00/00
