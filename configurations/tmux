@@ -2,6 +2,24 @@ set -g default-terminal "screen-256color"
 
 set-option -g status-position top
 
+set -g prefix C-a
+unbind %
+
 bind -n S-Down new-window
 bind -n S-Right next-window
 bind -n S-Left previous-window
+
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+bind \ split-window -h
+bind - split-window -v
+
+setw -g monitor-activity on
+set -g visual-activity on
+
+set-window-option -g window-status-current-bg yellow
+
+set-option -g mouse-select-pane on
