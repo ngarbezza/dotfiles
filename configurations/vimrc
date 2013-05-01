@@ -1,19 +1,22 @@
-" Settings
+" General Settings
 set nocompatible
 set encoding=utf-8
+set title
 set number
 set numberwidth=3
 set showtabline=2
-set shiftwidth=2
-set tabstop=2
-set smartindent
 set colorcolumn=80
 set path=.,,**
+
+" Tabs and indentation
 set expandtab
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+
 set showcmd
 set autoread
 set autowrite
-set title
 set backspace=indent,eol,start
 set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
