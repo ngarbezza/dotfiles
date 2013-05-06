@@ -10,3 +10,5 @@ alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
 alias psg='ps -e | grep'
 
 alias blank='sleep 1 && xset dpms force off'
+
+alias systemd-enabled-services='ls /etc/systemd/system/*.wants'
