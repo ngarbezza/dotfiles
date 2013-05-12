@@ -4,12 +4,10 @@ setxkbmap -layout us -variant altgr-intl &
 
 volumeicon &
 
-feh --bg-scale "/datos/Fotos-Nahuel/2012/11 - Noviembre/Smalltalks 2012/nahuelG/Sábado/SAM_0191.JPG"
+feh --bg-scale "$HOME/background.jpg"
 
 neap &
 
 kupfer --nosplash &
 
 gnote &
-
-xscreensaver -nosplash &
