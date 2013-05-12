@@ -6,6 +6,7 @@ alias remove-package='sudo pacman -Rs'
 alias upgrade-packages='yaourt -Syu'
 alias upgrade-packages-aur='yaourt -Syua'
 alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
+alias packages-count='pacman -Q | wc -l'
 
 alias psg='ps -e | grep'
 
