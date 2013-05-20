@@ -13,3 +13,6 @@ alias psg='ps -e | grep'
 alias blank='sleep 1 && xset dpms force off'
 
 alias systemd-enabled-services='ls /etc/systemd/system/*.wants'
+
+alias webcam-enable='sudo modprobe uvcvideo'
+alias webcam-disable='sudo modprobe -r uvcvideo'
