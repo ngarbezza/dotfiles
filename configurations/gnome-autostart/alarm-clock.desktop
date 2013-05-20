@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Encoding=UTF-8
-Version=1.0
-Name=Alarm Clock
-Exec=alarm-clock
-X-GNOME-Autostart-enabled=true
