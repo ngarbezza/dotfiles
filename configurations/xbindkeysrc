@@ -48,11 +48,15 @@
 
 ". ~/.bash/functions/actions && _open_secondary_browser"
   m:0xc + c:25
-  Control+Alt + w:w
+  Control+Alt + w
 
 ". ~/.bash/functions/actions && _open_music_player"
   m:0xc + c:58
   Control+Alt + m
+
+". ~/.bash/functions/actions && _open_process_monitor"
+  m:0xc + c:43
+  Control+Alt + h
 
 #######################
 # SCREEN / BRIGHTNESS #

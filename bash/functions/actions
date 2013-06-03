@@ -28,6 +28,10 @@ _open_password_manager() {
   keepassx
 }
 
+_open_process_monitor() {
+  xterm -e htop
+}
+
 # Screen/Brightness
 
 _lock_screen() {
