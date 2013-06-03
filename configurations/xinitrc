@@ -1,5 +1,7 @@
 xrdb -load ~/.Xresources &
 
+udiskie &
+
 /usr/bin/xscreensaver -no-splash &
 
 exec openbox-session
