@@ -27,7 +27,7 @@ set smartcase
 set scrolloff=3
 set term=xterm-256color
 set visualbell
-set listchars=tab:▸\ ,eol:¬,trail:⋅,nbsp:⋅
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,nbsp:␣,trail:⋅
 set mouse=a
 set timeoutlen=500  " Time to wait after ESC (default causes an annoying delay)
 set backupdir=~/temp/vimbackups,.
@@ -91,6 +91,7 @@ nnoremap <Leader>sh  :set list!<CR>
 nnoremap <Leader>ss  :set syntax=
 nnoremap <Leader>wh  :sp<CR>
 nnoremap <Leader>wv  :vsp<CR>
+nnoremap <Leader>f   :Unite file buffer<CR>
 "
 "  * text handling
 "
