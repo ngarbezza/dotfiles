@@ -91,7 +91,12 @@ nnoremap <Leader>sh  :set list!<CR>
 nnoremap <Leader>ss  :set syntax=
 nnoremap <Leader>wh  :sp<CR>
 nnoremap <Leader>wv  :vsp<CR>
-nnoremap <Leader>f   :Unite file buffer<CR>
+"
+"  * Unite plugin mappings
+"
+nnoremap <Leader>f   :Unite file_rec<CR>
+nnoremap <F7>        :Unite file_rec<CR>
+inoremap <F7>   <Esc>:Unite file_rec<CR>
 "
 "  * text handling
 "
