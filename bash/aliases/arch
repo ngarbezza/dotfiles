@@ -16,3 +16,5 @@ alias systemd-enabled-services='ls /etc/systemd/system/*.wants'
 
 alias webcam-enable='sudo modprobe uvcvideo'
 alias webcam-disable='sudo modprobe -r uvcvideo'
+
+alias p='ping www.example.com'
