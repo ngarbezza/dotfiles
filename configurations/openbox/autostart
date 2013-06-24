@@ -8,6 +8,4 @@ feh --bg-scale "$HOME/background.jpg"
 
 neap &
 
-kupfer --no-splash &
-
 gnote &
