@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Bear2</name>
+    <name>Thebear</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -251,15 +251,6 @@
     <keybind key="W-S-Down">
       <action name="DirectionalCycleWindows"/>
     </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <command>kfmclient openProfile filemanagement</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-      </action>
-    </keybind>
     <keybind key="W-Up">
       <action name="MaximizeFull"/>
     </keybind>
@@ -272,7 +263,7 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"/>
+      <action name="MoveToEdgeWest"/>
     </keybind>
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
@@ -280,7 +271,7 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"/>
+      <action name="MoveToEdgeEast"/>
     </keybind>
     <keybind key="W-m">
       <action name="Move"/>
