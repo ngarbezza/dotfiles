@@ -27,4 +27,6 @@ alias rails2-c='ruby script/console'
 alias rails2-g='ruby script/generate'
 
 # rbenv
-alias rh='rbenv rehash'
+alias rbv='rbenv version'
+alias rbs='rbenv shell'
+alias rbh='rbenv rehash'
