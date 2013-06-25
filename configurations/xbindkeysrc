@@ -58,6 +58,10 @@
   m:0xc + c:43
   Control+Alt + h
 
+". ~/.bash/functions/actions && _open_sound_mixer"
+  m:0xc + c:39
+  Control+Alt + s
+
 #######################
 # SCREEN / BRIGHTNESS #
 #######################

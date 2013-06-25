@@ -32,6 +32,10 @@ _open_process_monitor() {
   xterm -e htop
 }
 
+_open_sound_mixer() {
+  xterm -e alsamixer
+}
+
 # Screen/Brightness
 
 _lock_screen() {
