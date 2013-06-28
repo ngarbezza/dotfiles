@@ -56,6 +56,9 @@
   # remote
   r = remote -v                     # show remotes (verbose)
 
+  # remove
+  rmdf = !git rm $(git ls-files --deleted)
+
   # reset
   unstage = reset HEAD              # remove files from index (tracking)
   uncommit = reset --soft HEAD^     # go back before last commit, with files in uncommitted state
@@ -80,7 +83,6 @@
   svnr = svn rebase
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
-  rmdf = !git rm $(git ls-files --deleted)
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [merge]
@@ -108,3 +110,5 @@
   # Remember my merges
   # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
   enabled = true
+[credential]
+  helper = cache --timeout=3600
