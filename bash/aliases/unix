@@ -26,6 +26,7 @@ alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
 
 alias :q='exit'
+alias q='exit'
 
 alias process='ps fax | grep'
 # TODO: ps faux | grep '[r]uby' for skipping the grep process itself

@@ -1,4 +1,5 @@
 alias sudo='sudo '
+alias s='sudo '
 
 alias search-package='yaourt -Ss'
 alias install-package='yaourt -S'
