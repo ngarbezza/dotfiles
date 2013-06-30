@@ -43,9 +43,6 @@
 [submodule "configurations/vim/bundle/vim-nerdtree-tabs"]
 	path = configurations/vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
-[submodule "configurations/vim/bundle/vim-powerline"]
-	path = configurations/vim/bundle/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline
 [submodule "configurations/vim/bundle/vim-octopress"]
 	path = configurations/vim/bundle/vim-octopress
 	url = https://github.com/tangledhelix/vim-octopress.git
@@ -82,3 +79,6 @@
 [submodule "configurations/vim/bundle/vim-unite"]
 	path = configurations/vim/bundle/vim-unite
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "configurations/vim/bundle/powerline"]
+	path = configurations/vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git

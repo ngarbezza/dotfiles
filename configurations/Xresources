@@ -1,6 +1,6 @@
 xterm*VT100.geometry: 100x30
 
-xterm*faceName: DejaVu Sans Mono
+xterm*faceName: DejaVu Sans Mono for Powerline
 xterm*faceSize: 10
 
 xterm*loginShell: true
