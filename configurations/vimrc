@@ -119,12 +119,6 @@ let g:tagbar_type_markdown = {
   \ ]
 \ }
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
-
-" Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-let g:Powerline_theme="default"
-
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()

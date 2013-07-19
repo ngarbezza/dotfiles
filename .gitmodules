@@ -79,9 +79,6 @@
 [submodule "configurations/vim/bundle/vim-unite"]
 	path = configurations/vim/bundle/vim-unite
 	url = https://github.com/Shougo/unite.vim.git
-[submodule "configurations/vim/bundle/powerline"]
-	path = configurations/vim/bundle/powerline
-	url = https://github.com/Lokaltog/powerline.git
 [submodule "configurations/vim/bundle/vim-presenting"]
 	path = configurations/vim/bundle/vim-presenting
 	url = https://github.com/sotte/presenting.vim.git
