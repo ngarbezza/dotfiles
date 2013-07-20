@@ -119,6 +119,10 @@ let g:tagbar_type_markdown = {
   \ ]
 \ }
 
+" Powerline
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
+let g:airline_powerline_fonts = 1
+
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()

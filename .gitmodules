@@ -82,3 +82,6 @@
 [submodule "configurations/vim/bundle/vim-presenting"]
 	path = configurations/vim/bundle/vim-presenting
 	url = https://github.com/sotte/presenting.vim.git
+[submodule "configurations/vim/bundle/vim-airline"]
+	path = configurations/vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
