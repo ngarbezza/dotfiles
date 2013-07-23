@@ -9,6 +9,9 @@ export RBENV_HOME=$HOME/.rbenv
  
 export EDITOR=vim
 
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
+
 export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$MVN_HOME/bin:$RBENV_HOME/bin:$PATH
 
 # export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
