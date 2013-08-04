@@ -16,6 +16,7 @@ setw -g monitor-activity on
 set -g visual-activity on
 
 set-window-option -g window-status-current-bg yellow
+set-window-option -g xterm-keys on
 
 set-option -g mouse-select-pane on
 set -g mode-mouse on
