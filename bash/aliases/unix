@@ -32,6 +32,8 @@ alias process='ps fax | grep'
 # TODO: ps faux | grep '[r]uby' for skipping the grep process itself
 # cannot possible with alias, implement a function or python script
 
+alias tf='tail -f'
+
 alias mounted='mount | column -t'
 
 alias +x='chmod +x'
