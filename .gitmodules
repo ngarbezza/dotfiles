@@ -85,3 +85,6 @@
 [submodule "configurations/vim/bundle/vim-airline"]
 	path = configurations/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "configurations/vim/bundle/vim-rspec"]
+	path = configurations/vim/bundle/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git

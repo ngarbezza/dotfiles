@@ -92,6 +92,13 @@ nnoremap <Leader>ss  :set syntax=
 nnoremap <Leader>wh  :sp<CR>
 nnoremap <Leader>wv  :vsp<CR>
 "
+"  * vim-rspec plugin mappings
+"
+map <Leader>sf :call RunCurrentSpecFile()<CR>
+map <Leader>sc :call RunNearestSpec()<CR>
+map <Leader>sl :call RunLastSpec()<CR>
+map <Leader>sa :call RunAllSpecs()<CR>
+"
 "  * Unite plugin mappings
 "
 nnoremap <Leader>f   :Unite file_rec<CR>
