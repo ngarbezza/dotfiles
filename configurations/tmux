@@ -20,3 +20,5 @@ set-window-option -g xterm-keys on
 
 set-option -g mouse-select-pane on
 set -g mode-mouse on
+
+set -s escape-time 0
