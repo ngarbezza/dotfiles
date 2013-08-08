@@ -116,3 +116,8 @@
   enabled = true
 [credential]
   helper = cache --timeout=3600
+[user]
+  name = Nahuel Garbezza
+  email = n.garbezza@gmail.com
+[github]
+  user = ngarbezza
