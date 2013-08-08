@@ -43,6 +43,10 @@
   changelog = log --pretty=format:\" * %s\"
   shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
 
+  # merge
+  m = merge
+  ff = merge --ff-only
+
   # pull
   pl = pull                         # pull
 
