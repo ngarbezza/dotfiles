@@ -4,4 +4,4 @@ setxkbmap -layout us -variant altgr-intl -option shift:both_capslock_cancel -opt
 
 volumeicon &
 
-feh --bg-scale "$HOME/background.jpg"
+feh --bg-scale "$HOME/wallpaper"
