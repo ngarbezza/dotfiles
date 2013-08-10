@@ -19,6 +19,6 @@ export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$MVN_HOME
 export OPENSSL_CONF=/etc/ssl/openssl.cnf
 
 # Load Gemstone/S environment
-source /opt/gemstone/product/seaside/defSeaside
+[ -f /opt/gemstone/product/seaside/defSeaside ] && source /opt/gemstone/product/seaside/defSeaside
 
-eval "$(rbenv init -)"
+[ type rbenv &> /dev/null ] && eval "$(rbenv init -)"
