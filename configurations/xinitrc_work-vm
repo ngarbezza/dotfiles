@@ -1,0 +1,9 @@
+/usr/bin/VBoxClient-all
+
+xrdb -load ~/.Xresources &
+
+udiskie &
+
+/usr/bin/xscreensaver -no-splash &
+
+exec openbox-session
