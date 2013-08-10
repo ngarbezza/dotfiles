@@ -1,1 +1,1 @@
-complete -W "$(teamocil --list)" teamocil
+[ type teamocil &> /dev/null ] && complete -W "$(teamocil --list)" teamocil
