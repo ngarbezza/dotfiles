@@ -21,7 +21,7 @@ _open_calculator() {
 }
 
 _open_file_manager() {
-  pcmanfm
+  thunar
 }
 
 _open_password_manager() {
