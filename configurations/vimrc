@@ -37,7 +37,9 @@ set directory=~/temp/vimbackups,.
 "
 "  * general
 "
-map ; :
+map ;      :
+map <Down> gj
+map <Up>   gk
 "
 "  * move lines up/down
 "
