@@ -21,4 +21,4 @@ export OPENSSL_CONF=/etc/ssl/openssl.cnf
 # Load Gemstone/S environment
 [ -f /opt/gemstone/product/seaside/defSeaside ] && source /opt/gemstone/product/seaside/defSeaside
 
-[ type rbenv &> /dev/null ] && eval "$(rbenv init -)"
+eval "$(rbenv init -)"
