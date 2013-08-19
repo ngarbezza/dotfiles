@@ -131,9 +131,9 @@
     </item>
   </menu>
   <menu id="apps-fileman-menu" label="File Managers">
-    <item label="PCManFM">
+    <item label="Thunar">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>thunar</command>
         <startupnotify>
           <enabled>yes</enabled>
         </startupnotify>
