@@ -6,4 +6,6 @@ udiskie &
 
 /usr/bin/xscreensaver -no-splash &
 
+xbindkeys &
+
 exec openbox-session
