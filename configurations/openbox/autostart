@@ -2,10 +2,12 @@ tint2 &
 
 setxkbmap -layout us -variant altgr-intl -option shift:both_capslock_cancel -option ctrl:nocaps &
 
-volumeicon &
+xbindkeys &
 
-feh --bg-scale "$HOME/wallpaper"
+synapse -s &
 
 neap &
 
-gnote &
+volumeicon &
+
+feh --bg-scale "$HOME/wallpaper" &
