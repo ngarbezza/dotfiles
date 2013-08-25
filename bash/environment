@@ -8,6 +8,7 @@ export GEMSTONE=/opt/gemstone/product
 export RBENV_HOME=$HOME/.rbenv
  
 export EDITOR=vim
+export TERM="screen-256color"
 
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
