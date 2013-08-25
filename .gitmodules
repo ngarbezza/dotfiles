@@ -88,3 +88,6 @@
 [submodule "configurations/vim/bundle/editorconfig"]
 	path = configurations/vim/bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "configurations/vim/bundle/vim-colors-solarized"]
+	path = configurations/vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
