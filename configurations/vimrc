@@ -40,6 +40,7 @@ set directory=~/temp/vimbackups,.
 map ;      :
 map <Down> gj
 map <Up>   gk
+inoremap <A-d> <Esc>ddi
 "
 "  * move lines up/down
 "
