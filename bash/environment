@@ -1,5 +1,5 @@
 export M2_REPO=$HOME/code/maven-repo
-export JAVA_HOME=$HOME/software/jdk1.7.0_07
+export JAVA_HOME=/opt/java
 export SBT_HOME=$HOME/software/sbt
 export MVN_HOME=$HOME/software/apache-maven-2.2.1
 export JENKINS_HOME=$HOME/code/jenkins
