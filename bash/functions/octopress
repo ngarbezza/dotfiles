@@ -1,13 +1,13 @@
 octopress-new-post() {
-  rake new_post["$@"]
+  bundle exec rake new_post["$@"]
 }
 
 octopress-deploy() {
-  rake generate && rake deploy
+  bundle exec rake generate && bundle exec rake deploy
 }
 
 octopress-preview() {
-  rake preview
+  bundle exec rake preview
 }
 
 octopress-posts-count() {
