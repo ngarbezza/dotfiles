@@ -1,3 +1,5 @@
+export LANG=es_AR.utf8
+
 export M2_REPO=$HOME/code/maven-repo
 export JAVA_HOME=/opt/java
 export SBT_HOME=$HOME/software/sbt
