@@ -1,9 +1,8 @@
 export LANG=es_AR.utf8
 
-export M2_REPO=$HOME/code/maven-repo
+export M2_REPO=$HOME/.m2/repository
 export JAVA_HOME=/opt/java
 export SBT_HOME=$HOME/software/sbt
-export MVN_HOME=$HOME/software/apache-maven-2.2.1
 export JENKINS_HOME=$HOME/code/jenkins
 export CABAL_HOME=$HOME/.cabal
 export GEMSTONE=/opt/gemstone/product
@@ -15,9 +14,9 @@ export TERM="screen-256color"
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 
-export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$MVN_HOME/bin:$RBENV_HOME/bin:$PATH
+export PATH=$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$RBENV_HOME/bin:$PATH
 
-# export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
+export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
 
 export OPENSSL_CONF=/etc/ssl/openssl.cnf
 

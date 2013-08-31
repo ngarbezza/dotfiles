@@ -1,3 +1,2 @@
-alias mvn=mvn2
 alias mvn3=/usr/bin/mvn
 alias mvn-test='mvn -Dsurefire.useFile=false test'
