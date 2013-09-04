@@ -8,11 +8,13 @@ mcd () {
 shopt -s autocd
 
 # History
+# TODO separate in a history file
 export HISTSIZE=10000
 shopt -s histappend
-
 # After each command, save and reload history
-# export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+# show date/time of each command in history
+export HISTTIMEFORMAT='%F %T : '
 
 # swap two files
 swap() {
