@@ -1,2 +1,7 @@
 [ui]
 username = Nahuel Garbezza <n.garbezza@gmail.com>
+style = compact
+
+[extensions]
+color =
+graphlog =
