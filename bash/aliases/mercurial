@@ -1,0 +1,7 @@
+alias hgs='hg status'
+alias hgd='hg diff'
+alias hgl='hg log'
+alias hgln='hg log -l'
+alias hga='hg add'
+alias hgc='hg commit'
+alias hgcm='hg commit -m'
