@@ -20,8 +20,12 @@ _open_calculator() {
   gnome-calculator
 }
 
-_open_file_manager() {
+_open_gui_file_manager() {
   thunar
+}
+
+_open_console_file_manager() {
+  xterm -e ranger
 }
 
 _open_password_manager() {

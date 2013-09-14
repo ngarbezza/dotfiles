@@ -30,9 +30,13 @@
   m:0xc + c:41
   Control+Alt + f
 
-". ~/.bash/functions/actions && _open_file_manager"
+". ~/.bash/functions/actions && _open_gui_file_manager"
   m:0xc + c:57
   Control+Alt + n
+
+". ~/.bash/functions/actions && _open_console_file_manager"
+  m:0xc + c:27
+  Control+Alt + r
 
 ". ~/.bash/functions/actions && _open_calculator"
   m:0xc + c:54
