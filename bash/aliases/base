@@ -5,6 +5,7 @@ source $ALIASES_PATH/arch
 source $ALIASES_PATH/git
 source $ALIASES_PATH/mercurial
 source $ALIASES_PATH/svn
+source $ALIASES_PATH/code
 source $ALIASES_PATH/ruby
 source $ALIASES_PATH/java
 source $ALIASES_PATH/apps
