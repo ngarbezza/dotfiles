@@ -11,3 +11,5 @@ neap &
 volumeicon &
 
 feh --bg-scale "$HOME/wallpaper" &
+
+mpdscribble &

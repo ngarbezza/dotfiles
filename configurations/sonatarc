@@ -13,8 +13,8 @@ profile_num = 0
 [player]
 w = 826
 h = 556
-x = 236
-y = 110
+x = 305
+y = 142
 expanded = True
 withdrawn = False
 screen = 0
@@ -88,9 +88,9 @@ names[0] = Radio Madre (AM 530)
 uris[0] = http://200.68.81.65:8000/am530
 
 [audioscrobbler]
-use_audioscrobbler = True
-username = NeverABrokenMan
-password_md5 = fdf5d468505bc9ada712c0344fa3d15a
+use_audioscrobbler = False
+username = 
+password_md5 = d41d8cd98f00b204e9800998ecf8427e
 
 [tags]
 use_mpdpaths = False
