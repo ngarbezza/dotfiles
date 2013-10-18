@@ -25,7 +25,7 @@ _open_gui_file_manager() {
 }
 
 _open_console_file_manager() {
-  xterm -e ranger
+  xterm -fullscreen -e ranger
 }
 
 _open_password_manager() {
