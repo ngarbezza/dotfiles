@@ -40,3 +40,5 @@ backup () {
   local filetime=$(date +%Y%m%d_%H%M%S)
   cp ${filename} ${filename}_${filetime}
 }
+
+stty stop ''
