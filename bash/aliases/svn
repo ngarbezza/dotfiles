@@ -4,3 +4,5 @@ alias url-svn="svn info | sed -ne 's/URL: //p'"
 alias svna='svn add'
 alias svnc='svn ci -m'
 alias svnd='svn diff | colordiff'
+alias svns='svn st'
+alias svnig='svn propedit svn:ignore .'
