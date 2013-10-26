@@ -2,8 +2,6 @@ tint2 &
 
 setxkbmap -layout us -variant altgr-intl -option shift:both_capslock_cancel -option ctrl:nocaps &
 
-xcompmgr -c &
-
 xbindkeys &
 
 synapse -s &
