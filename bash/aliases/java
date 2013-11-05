@@ -1,3 +1,3 @@
 alias mvn3=/usr/bin/mvn
 alias mvn-test='mvn -Dsurefire.useFile=false test'
-alias pf=play2
+alias pf='$PLAY2_HOME/play'

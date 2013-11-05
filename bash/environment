@@ -8,7 +8,8 @@ export JENKINS_HOME=$HOME/code/jenkins
 export CABAL_HOME=$HOME/.cabal
 export GEMSTONE=/opt/gemstone/product
 export RBENV_HOME=$HOME/.rbenv
- 
+export PLAY2_HOME=$HOME/software/play-2.1.5
+
 export EDITOR=vim
 export TERM="xterm-256color"
 
