@@ -6,7 +6,7 @@
 # ID 1
 rounded = 2
 border_width = 0
-background_color = #6B6B6B 70
+background_color = #6B6B6B 69
 border_color = #BBCEFF 0
 
 # ID 2
@@ -58,7 +58,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 70 0 0
 
 # Fonts
-task_font = Open Sans Bold 9
+task_font = Cantarell 9
 task_font_color = #000000 60
 task_active_font_color = #000000 80
 task_urgent_font_color = #000000 80
@@ -75,9 +75,9 @@ systray_icon_asb = 70 0 0
 
 # Clock
 time1_format = %H:%M
-time1_font = Sans Bold 9
+time1_font = Cantarell 9
 time2_format = %A %d de %B
-time2_font = Sans 7
+time2_font = Cantarell 7
 clock_font_color = #000000 60
 clock_padding = 1 0
 clock_background_id = 0
@@ -90,7 +90,7 @@ tooltip_padding = 2 2
 tooltip_show_timeout = 0.7
 tooltip_hide_timeout = 0.3
 tooltip_background_id = 1
-tooltip_font = sans 10
+tooltip_font = Cantarell 10
 tooltip_font_color = #000000 80
 
 # Mouse
@@ -104,8 +104,8 @@ battery = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "battery low"
 battery_hide = 98
-bat1_font = Sans 9
-bat2_font = Sans 7
+bat1_font = Cantarell 9
+bat2_font = Cantarell 7
 battery_font_color = #000000 60
 battery_padding = 1 0
 battery_background_id = 0
