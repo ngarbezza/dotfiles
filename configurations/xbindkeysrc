@@ -26,6 +26,10 @@
   m:0xc + c:28
   Control+Alt + t
 
+". ~/.bash/functions/actions && _open_terminal_emulator_full_screen"
+  m:0x0 + c:96
+  F12
+
 ". ~/.bash/functions/actions && _open_primary_browser"
   m:0xc + c:41
   Control+Alt + f

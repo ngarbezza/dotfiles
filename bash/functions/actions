@@ -4,6 +4,10 @@ _open_terminal_emulator() {
   xterm
 }
 
+_open_terminal_emulator_full_screen() {
+  xterm -fullscreen
+}
+
 _open_text_editor() {
   xterm -e vim
 }
