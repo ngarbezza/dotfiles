@@ -24,3 +24,8 @@ alias ssh-start='sudo systemctl start sshd'
 alias ssh-stop='sudo systemctl stop sshd'
 
 alias p='ping www.example.com'
+
+alias service-start='sudo systemctl start'
+alias service-stop='sudo systemctl stop'
+alias service-enable='sudo systemctl enable'
+alias service-disable='sudo systemctl disable'
