@@ -1,0 +1,21 @@
+[Configuration]
+ViewLineNumbers=true
+WindowStatusbarVisible=true
+ViewWordWrap=true
+ViewTabSize=2
+ViewInsertSpaces=true
+ViewColorScheme=oblivion
+WindowHeight=529
+WindowWidth=726
+SearchDirection=1
+SearchMatchCase=false
+SearchMatchWholeWord=false
+SearchReplaceAllLocation=1
+ViewAutoIndent=false
+ViewFontName=DejaVu Sans Mono 10
+MiscAlwaysShowTabs=false
+MiscCycleTabs=false
+MiscDefaultTabSizes=2,3,4,8
+MiscPathInTitle=false
+MiscRecentMenuItems=10
+MiscRememberGeometry=true
