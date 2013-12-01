@@ -93,3 +93,7 @@
 ". ~/.bash/functions/actions && _take_screenshot_selection"
   m:0x1 + c:107
   Shift + Print
+
+"arandr"
+  m:0x0 + c:235
+  XF86Display
