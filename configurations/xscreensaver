@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.21 for nahuel on Sun Mar 24 21:46:01 2013.
+# Written by xscreensaver-demo 5.23 for nahuel on Tue Dec  3 18:48:17 2013.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -34,7 +34,7 @@ grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	
 
-mode:		random
+mode:		blank
 selected:	-1
 
 textMode:	program
@@ -44,7 +44,7 @@ textProgram:	uptime
 textURL:	http://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
 
 programs:								      \
-				maze -root				    \n\
+-				maze -root				    \n\
 - GL: 				superquadrics -root			    \n\
 -				attraction -root			    \n\
 -				blitspin -root				    \n\
@@ -66,11 +66,11 @@ programs:								      \
 -				braid -root				    \n\
 -				coral -root				    \n\
 -				deco -root				    \n\
-				drift -root				    \n\
+-				drift -root				    \n\
 -				fadeplot -root				    \n\
 -				galaxy -root				    \n\
 -				goop -root				    \n\
-				grav -root				    \n\
+-				grav -root				    \n\
 -				ifs -root				    \n\
 - GL: 				jigsaw -root				    \n\
 -				julia -root				    \n\
@@ -88,11 +88,11 @@ programs:								      \
 -				slip -root				    \n\
 - GL: 				sproingies -root			    \n\
 -				starfish -root				    \n\
-				strange -root				    \n\
+-				strange -root				    \n\
 -				swirl -root				    \n\
 -				triangle -root				    \n\
 -				xjack -root				    \n\
-				xlyap -root				    \n\
+-				xlyap -root				    \n\
 - GL: 				atlantis -root				    \n\
 -				bsod -root				    \n\
 - GL: 				bubble3d -root				    \n\
@@ -105,7 +105,7 @@ programs:								      \
 -				flow -root				    \n\
 - GL: 				glplanet -root				    \n\
 -				interference -root			    \n\
-				kumppa -root				    \n\
+-				kumppa -root				    \n\
 - GL: 				lament -root				    \n\
 -				moire2 -root				    \n\
 - GL: 				sonar -root				    \n\
@@ -117,26 +117,26 @@ programs:								      \
 -				ccurve -root				    \n\
 -				compass -root				    \n\
 -				deluxe -root				    \n\
-				demon -root				    \n\
+-				demon -root				    \n\
 - GL: 				extrusion -root				    \n\
 -				loop -root				    \n\
 -				penetrate -root				    \n\
 -				petri -root				    \n\
-				phosphor -root				    \n\
+-				phosphor -root				    \n\
 - GL: 				pulsar -root				    \n\
 -				ripples -root				    \n\
 -				shadebobs -root				    \n\
 - GL: 				sierpinski3d -root			    \n\
 -				spotlight -root				    \n\
-				squiral -root				    \n\
+-				squiral -root				    \n\
 -				wander -root				    \n\
 -				webcollage -root			    \n\
 -				xflame -root				    \n\
-				xmatrix -root				    \n\
+-				xmatrix -root				    \n\
 - GL: 				gflux -root				    \n\
 -				nerverot -root				    \n\
-				xrayswarm -root				    \n\
-				xspirograph -root			    \n\
+-				xrayswarm -root				    \n\
+-				xspirograph -root			    \n\
 - GL: 				circuit -root				    \n\
 - GL: 				dangerball -root			    \n\
 - GL: 				dnalogo -root				    \n\
@@ -151,8 +151,8 @@ programs:								      \
 - GL: 				stonerview -root			    \n\
 -				vermiculate -root			    \n\
 -				whirlwindwarp -root			    \n\
-				zoom -root				    \n\
-				anemone -root				    \n\
+-				zoom -root				    \n\
+-				anemone -root				    \n\
 -				apollonian -root			    \n\
 - GL: 				boxed -root				    \n\
 - GL: 				cubenetic -root				    \n\
@@ -163,7 +163,7 @@ programs:								      \
 - GL: 				glblur -root				    \n\
 - GL: 				glsnake -root				    \n\
 -				halftone -root				    \n\
-  GL: 				juggler3d -root				    \n\
+- GL: 				juggler3d -root				    \n\
 - GL: 				lavalite -root				    \n\
 -				polyominoes -root			    \n\
 - GL: 				queens -root				    \n\
@@ -192,9 +192,9 @@ programs:								      \
 - GL: 				jigglypuff -root			    \n\
 -				metaballs -root				    \n\
 - GL: 				mirrorblob -root			    \n\
-				piecewise -root				    \n\
+-				piecewise -root				    \n\
 - GL: 				polytopes -root				    \n\
-				pong -root				    \n\
+-				pong -root				    \n\
 -				popsquares -root			    \n\
 - GL: 				surfaces -root				    \n\
 -				xanalogtv -root				    \n\
@@ -205,14 +205,14 @@ programs:								      \
 -				fuzzyflakes -root			    \n\
 -				interaggregate -root			    \n\
 -				intermomentary -root			    \n\
-				memscroller -root			    \n\
+-				memscroller -root			    \n\
 - GL: 				noof -root				    \n\
-				pacman -root				    \n\
+-				pacman -root				    \n\
 - GL: 				pinion -root				    \n\
 - GL: 				polyhedra -root				    \n\
 - GL: 				providence -root			    \n\
 -				substrate -root				    \n\
-				wormhole -root				    \n\
+-				wormhole -root				    \n\
 - GL: 				antmaze -root				    \n\
 - GL: 				boing -root				    \n\
 -				boxfit -root				    \n\
@@ -245,6 +245,11 @@ programs:								      \
 - GL: 				hilbert -root				    \n\
 - GL: 				tronbit -root				    \n\
 -				electricsheep --root 1			    \n\
+- GL: 				geodesic -root				    \n\
+-				hexadrop -root				    \n\
+- GL: 				kaleidocycle -root			    \n\
+- GL: 				quasicrystal -root			    \n\
+- GL: 				unknownpleasures -root			    \n\
 
 
 pointerPollTime:    0:00:05
