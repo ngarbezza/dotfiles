@@ -47,7 +47,7 @@ _open_sound_mixer() {
 # Screen/Brightness
 
 _lock_screen() {
-  xscreensaver-command --lock
+  slimlock
 }
 
 _dim_brightness() {
