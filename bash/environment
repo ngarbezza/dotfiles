@@ -1,7 +1,6 @@
-export LANG=es_AR.utf8
-
 export M2_REPO=$HOME/.m2/repository
 export JAVA_HOME=/opt/java
+export MVN_HOME=$HOME/software/apache-maven-3.0.5
 export SBT_HOME=$HOME/software/sbt
 export ANDROID_HOME=$HOME/software/adt-bundle-linux-x86_64-20130729/sdk
 export JENKINS_HOME=$HOME/code/jenkins
@@ -16,7 +15,7 @@ export TERM="xterm-256color"
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 
-export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/build-tools:$ANDROID_HOME/platform-tools:$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$RBENV_HOME/bin:$PATH
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/build-tools:$ANDROID_HOME/platform-tools:$CABAL_HOME/bin:$SBT_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$RBENV_HOME/bin:$MVN_HOME/bin:$PATH
 
 export _JAVA_OPTIONS="-Dswing.aatext=true -Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
 
