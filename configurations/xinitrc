@@ -9,6 +9,6 @@ xrdb -load ~/.Xresources &
 
 udiskie &
 
-/usr/bin/xscreensaver -no-splash &
+xautolock -time 5 -locker slimlock &
 
 exec openbox-session
