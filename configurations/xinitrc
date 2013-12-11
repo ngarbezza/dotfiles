@@ -9,6 +9,6 @@ xrdb -load ~/.Xresources &
 
 udiskie &
 
-xautolock -time 5 -locker slimlock &
+xautolock -time 5 -corners -000 -locker slimlock &
 
 exec openbox-session
