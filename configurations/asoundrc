@@ -1,0 +1,16 @@
+# ALSA library configuration file
+
+# Include settings that are under the control of asoundconf(1).
+# (To disable these settings, comment out this line.)
+# </home/nahuel/.asoundrc.asoundconf>
+
+pcm.!default {
+  type hw
+  card 0
+}
+
+ctl.!default {
+  type hw           
+  card 0
+}
+
