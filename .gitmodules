@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/vim-gobstones"]
-	path = configurations/vim/bundle/vim-gobstones
-	url = https://github.com/ngarbezza/vim-gobstones.git
 [submodule "configurations/vim/bundle/vim-nerdtree-tabs"]
 	path = configurations/vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
