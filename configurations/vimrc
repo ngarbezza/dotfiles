@@ -1,5 +1,42 @@
-" General Settings
 set nocompatible
+
+" configure Vundle
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'editorconfig/editorconfig-vim'
+Bundle 'bitc/lushtags'
+Bundle 'scrooloose/nerdtree'
+Bundle 'ervandew/supertab'
+Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
+Bundle 'tpope/vim-abolish'
+Bundle 'bling/vim-airline'
+Bundle 'Townk/vim-autoclose'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-characterize'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-eunuch'
+Bundle 'tpope/vim-fugitive'
+Bundle 'ngarbezza/vim-gobstones'
+Bundle 'tpope/vim-markdown'
+Bundle 'tsaleh/vim-matchit'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'tangledhelix/vim-octopress'
+Bundle 'sotte/presenting.vim'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-repeat'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'ecomba/vim-ruby-refactoring'
+Bundle 'tpope/vim-surround'
+Bundle 'Shougo/unite.vim'
+
+" General Settings
 set encoding=utf-8
 set title
 set number
@@ -133,10 +170,6 @@ let g:tagbar_type_markdown = {
 " Powerline
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
 let g:airline_powerline_fonts = 1
-
-" Pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
 
 syntax on
 set background=dark
