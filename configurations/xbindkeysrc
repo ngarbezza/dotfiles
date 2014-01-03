@@ -70,6 +70,9 @@
   m:0xc + c:39
   Control+Alt + s
 
+"cd ~/code/smalltalk/pharo && ./pharo-ui Pharo.image"
+  Control+Alt + p
+
 #######################
 # SCREEN / BRIGHTNESS #
 #######################
