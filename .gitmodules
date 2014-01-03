@@ -4,9 +4,6 @@
 [submodule "utilities/ruby-build"]
 	path = utilities/ruby-build
 	url = https://github.com/sstephenson/ruby-build.git
-[submodule "configurations/vim/bundle/vim-rspec"]
-	path = configurations/vim/bundle/vim-rspec
-	url = https://github.com/thoughtbot/vim-rspec.git
 [submodule "configurations/vim/bundle/editorconfig"]
 	path = configurations/vim/bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
