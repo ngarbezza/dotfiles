@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/nerdtree"]
-	path = configurations/vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "configurations/vim/bundle/vim-autoclose"]
 	path = configurations/vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose.git
