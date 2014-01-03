@@ -4,9 +4,6 @@
 [submodule "utilities/ruby-build"]
 	path = utilities/ruby-build
 	url = https://github.com/sstephenson/ruby-build.git
-[submodule "configurations/vim/bundle/vim-unite"]
-	path = configurations/vim/bundle/vim-unite
-	url = https://github.com/Shougo/unite.vim.git
 [submodule "configurations/vim/bundle/vim-presenting"]
 	path = configurations/vim/bundle/vim-presenting
 	url = https://github.com/sotte/presenting.vim.git
