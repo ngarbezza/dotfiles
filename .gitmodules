@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/lushtags"]
-	path = configurations/vim/bundle/lushtags
-	url = https://github.com/bitc/lushtags.git
 [submodule "configurations/vim/bundle/vim-matchit"]
 	path = configurations/vim/bundle/vim-matchit
 	url = https://github.com/tsaleh/vim-matchit.git
