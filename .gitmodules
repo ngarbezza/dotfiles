@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/vim-matchit"]
-	path = configurations/vim/bundle/vim-matchit
-	url = https://github.com/tsaleh/vim-matchit.git
 [submodule "configurations/vim/bundle/vim-characterize"]
 	path = configurations/vim/bundle/vim-characterize
 	url = https://github.com/tpope/vim-characterize.git
