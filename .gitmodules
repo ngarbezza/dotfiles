@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/vim-bundler"]
-	path = configurations/vim/bundle/vim-bundler
-	url = https://github.com/tpope/vim-bundler.git
 [submodule "configurations/vim/bundle/vim-commentary"]
 	path = configurations/vim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
