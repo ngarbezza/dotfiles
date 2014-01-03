@@ -3,19 +3,15 @@
 #########
 
 ". ~/.bash/functions/actions && _prev_song"
-  m:0x4 + c:122
   Control + XF86AudioLowerVolume
 
 ". ~/.bash/functions/actions && _next_song"
-  m:0x4 + c:123
   Control + XF86AudioRaiseVolume
 
 ". ~/.bash/functions/actions && _stop_song"
-  m:0x4 + c:233
   Control + XF86MonBrightnessUp
 
 ". ~/.bash/functions/actions && _toggle_play_song"
-  m:0x4 + c:232
   Control + XF86MonBrightnessDown
 
 #########################
@@ -23,51 +19,39 @@
 #########################
 
 ". ~/.bash/functions/actions && _open_terminal_emulator"
-  m:0xc + c:28
   Control+Alt + t
 
 ". ~/.bash/functions/actions && _open_terminal_emulator_full_screen"
-  m:0x0 + c:96
   F12
 
 ". ~/.bash/functions/actions && _open_primary_browser"
-  m:0xc + c:41
   Control+Alt + f
 
 ". ~/.bash/functions/actions && _open_gui_file_manager"
-  m:0xc + c:57
   Control+Alt + n
 
 ". ~/.bash/functions/actions && _open_console_file_manager"
-  m:0xc + c:27
   Control+Alt + r
 
 ". ~/.bash/functions/actions && _open_calculator"
-  m:0xc + c:54
   Control+Alt + c
 
 ". ~/.bash/functions/actions && _open_password_manager"
-  m:0xc + c:45
   Control+Alt + k
 
 ". ~/.bash/functions/actions && _open_text_editor"
-  m:0xc + c:55
   Control+Alt + v
 
 ". ~/.bash/functions/actions && _open_secondary_browser"
-  m:0xc + c:25
   Control+Alt + w
 
 ". ~/.bash/functions/actions && _open_music_player"
-  m:0xc + c:58
   Control+Alt + m
 
 ". ~/.bash/functions/actions && _open_process_monitor"
-  m:0xc + c:43
   Control+Alt + h
 
 ". ~/.bash/functions/actions && _open_sound_mixer"
-  m:0xc + c:39
   Control+Alt + s
 
 "cd ~/code/smalltalk/pharo && ./pharo-ui Pharo.image"
@@ -78,25 +62,19 @@
 #######################
 
 ". ~/.bash/functions/actions && _dim_brightness"
-  m:0x0 + c:232
   XF86MonBrightnessDown
 
 ". ~/.bash/functions/actions && _aug_brightness"
-  m:0x0 + c:233
   XF86MonBrightnessUp
 
 ". ~/.bash/functions/actions && _lock_screen"
-  m:0xc + c:46
   Control+Alt + l
 
 ". ~/.bash/functions/actions && _take_screenshot_full_screen"
-  m:0x0 + c:107
   Print
 
 ". ~/.bash/functions/actions && _take_screenshot_selection"
-  m:0x1 + c:107
   Shift + Print
 
 "arandr"
-  m:0x0 + c:235
   XF86Display
