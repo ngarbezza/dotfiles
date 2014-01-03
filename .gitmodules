@@ -91,3 +91,6 @@
 [submodule "configurations/vim/bundle/vim-colors-solarized"]
 	path = configurations/vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "configurations/vim/bundle/vundle"]
+	path = configurations/vim/bundle/vundle
+	url = https://github.com/gmarik/vundle.git
