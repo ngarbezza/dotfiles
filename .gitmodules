@@ -1,6 +1,3 @@
-[submodule "configurations/vim/bundle/syntastic"]
-	path = configurations/vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "configurations/vim/bundle/vim-ruby-refactoring"]
 	path = configurations/vim/bundle/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring.git
