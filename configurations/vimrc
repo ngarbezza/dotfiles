@@ -7,6 +7,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+Bundle 'tpope/vim-sensible'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'bitc/lushtags'
 Bundle 'scrooloose/nerdtree'
@@ -50,22 +51,15 @@ set path=.,,**
 set expandtab
 set shiftwidth=2
 set softtabstop=2
-set autoindent
 
-set showcmd
-set autoread
 set autowrite
-set backspace=indent,eol,start
-set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
-set laststatus=2
 set clipboard=unnamed
 set ignorecase
 set smartcase
 set scrolloff=3
 set term=xterm-256color
 set visualbell
-set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,nbsp:␣,trail:⋅
 set mouse=a
 set timeoutlen=500  " Time to wait after ESC (default causes an annoying delay)
 set backupdir=~/temp/vimbackups,.
