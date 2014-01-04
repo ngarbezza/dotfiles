@@ -35,6 +35,7 @@ Bundle 'thoughtbot/vim-rspec'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'tpope/vim-surround'
 Bundle 'Shougo/unite.vim'
+Bundle 'airblade/vim-gitgutter'
 
 " General Settings
 set encoding=utf-8
@@ -166,6 +167,10 @@ let g:tagbar_type_markdown = {
     \ 'k:Heading_L3'
   \ ]
 \ }
+
+" GitGutter
+autocmd VimEnter * GitGutterDisable
+map <Leader>gg :GitGutterToggle<CR>
 
 " Powerline
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
