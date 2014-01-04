@@ -9,15 +9,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-sensible'
 Bundle 'editorconfig/editorconfig-vim'
-Bundle 'bitc/lushtags'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/syntastic'
-Bundle 'majutsushi/tagbar'
-Bundle 'tpope/vim-abolish'
 Bundle 'bling/vim-airline'
 Bundle 'Townk/vim-autoclose'
 Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-characterize'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-endwise'
@@ -27,13 +23,11 @@ Bundle 'ngarbezza/vim-gobstones'
 Bundle 'tpope/vim-markdown'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'tangledhelix/vim-octopress'
-Bundle 'sotte/presenting.vim'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-repeat'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'tpope/vim-surround'
-Bundle 'Shougo/unite.vim'
 Bundle 'airblade/vim-gitgutter'
 
 " General Settings
@@ -131,32 +125,12 @@ map <Leader>sc :call RunNearestSpec()<CR>
 map <Leader>sl :call RunLastSpec()<CR>
 map <Leader>sa :call RunAllSpecs()<CR>
 "
-"  * Unite plugin mappings
-"
-nnoremap <Leader>f   :Unite file_rec<CR>
-nnoremap <F7>        :Unite file_rec<CR>
-inoremap <F7>   <Esc>:Unite file_rec<CR>
-"
 "  * text handling
 "
 nnoremap Y y$
 " Enter a blank line below/above cursor in Normal mode.
 nmap ,o o<Esc>k
 nmap ,O O<Esc>j
-"
-"  * tags
-"
-nmap <F8> :TagbarToggle<CR>
-
-" Tagbar
-let g:tagbar_type_markdown = {
-  \ 'ctagstype' : 'markdown',
-  \ 'kinds' : [
-    \ 'h:Heading_L1',
-    \ 'i:Heading_L2',
-    \ 'k:Heading_L3'
-  \ ]
-\ }
 
 " GitGutter
 let g:gitgutter_enabled = 0
