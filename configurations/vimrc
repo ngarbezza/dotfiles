@@ -10,7 +10,6 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-sensible'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'bitc/lushtags'
-Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
@@ -27,7 +26,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'ngarbezza/vim-gobstones'
 Bundle 'tpope/vim-markdown'
 Bundle 'tsaleh/vim-matchit'
-Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tangledhelix/vim-octopress'
 Bundle 'sotte/presenting.vim'
 Bundle 'tpope/vim-rails'
@@ -95,8 +93,6 @@ nnoremap <F3>      :tabe<Space>
 nnoremap <F4>      :tabf<Space>
 inoremap <F3>      <Esc>:tabe<Space>
 inoremap <F4>      <Esc>:tabf<Space>
-nnoremap <F6>      :NERDTreeTabsToggle<CR>
-inoremap <F6>      <Esc>:NERDTreeTabsToggle<CR>
 "
 "  * navigate viewports
 "
