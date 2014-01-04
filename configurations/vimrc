@@ -159,7 +159,7 @@ let g:tagbar_type_markdown = {
 \ }
 
 " GitGutter
-autocmd VimEnter * GitGutterDisable
+let g:gitgutter_enabled = 0
 map <Leader>gg :GitGutterToggle<CR>
 
 " Powerline
