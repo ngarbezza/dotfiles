@@ -44,6 +44,10 @@ _open_sound_mixer() {
   xterm -e alsamixer
 }
 
+_umount_disks() {
+  udiskie-umount -a
+}
+
 # Screen/Brightness
 
 _lock_screen() {
