@@ -2,7 +2,7 @@ alias sudo='sudo '
 alias s='sudo '
 
 alias search-package='yaourt -Ss'
-alias install-package='yaourt -S'
+alias install-package='yaourt -S --noconfirm'
 alias remove-package='sudo pacman -Rs'
 alias upgrade-packages='yaourt -Syu'
 alias upgrade-packages-aur='yaourt -Syua'
