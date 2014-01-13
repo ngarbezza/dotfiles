@@ -29,6 +29,7 @@ Bundle 'thoughtbot/vim-rspec'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'tpope/vim-surround'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'kien/ctrlp.vim'
 
 " General Settings
 set encoding=utf-8
