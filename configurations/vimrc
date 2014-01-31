@@ -31,7 +31,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'tpope/vim-fireplace'
+" Bundle 'tpope/vim-fireplace'
 Bundle 'guns/vim-clojure-static'
 
 " General Settings
@@ -167,6 +167,9 @@ let g:rbpt_colorpairs = [
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 map <Leader>rpt :RainbowParenthesesToggle<CR>
+
+" Hiccup
+au BufRead,BufNewFile *.hiccup set filetype=clojure
 
 syntax on
 set background=dark
