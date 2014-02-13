@@ -8,5 +8,6 @@ source $ALIASES_PATH/svn
 source $ALIASES_PATH/code
 source $ALIASES_PATH/ruby
 source $ALIASES_PATH/java
+source $ALIASES_PATH/clojure
 source $ALIASES_PATH/apps
 source $ALIASES_PATH/other
