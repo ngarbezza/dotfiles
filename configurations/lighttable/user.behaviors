@@ -1,0 +1,36 @@
+;; User behaviors
+;; -----------------------------
+;; Behaviors are stored as a set of diffs that are merged together
+;; to create the final set of functionality that makes up Light Table. You can
+;; modify these diffs to either add or subtract functionality.
+;;
+;; Behaviors are added to tags, objects with those tags then automatically gain
+;; whatever logic the behavior imparts. To see a list of user-level behaviors,
+;; start typing a word related to the functionality you want in between the square
+;; brackets (e.g. "theme").
+
+{:+ {
+     ;; The app tag is kind of like global scope. You assign behaviors that affect
+     ;; all of Light Table here
+     :app [(:lt.objs.style/set-skin "dark")
+           :lt.objs.sidebar.workspace/workspace.open-on-start]
+
+     ;; The editor tag is applied to all editors
+     :editor [(:lt.objs.style/set-theme "solarized")
+              (:lt.objs.style/font-settings "DejaVu Sans Mono" 10 1.1)
+              :lt.objs.editor/wrap
+              :lt.objs.editor/line-numbers
+              :lt.objs.editor/highlight-current-line
+              :lt.objs.editor.file/last-char-newline]
+
+     ;; Here we can add behaviors to just clojure editors
+     :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]
+
+     :files [(:lt.objs.files/file-types [{:exts [:hiccup],
+                                          :mime "text/x-clojure",
+                                          :name "hiccup",
+                                          :tags [:editor.clj :editor.clojure]}])]}
+
+ ;; You can use the subtract key to remove behavior that may get added by
+ ;; another diff
+ :- {:app []}}
