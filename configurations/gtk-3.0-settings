@@ -1,7 +1,9 @@
+# Symlink to ~/.config/gtk-3.0/settings.ini
+
 [Settings] 
 gtk-theme-name=Adwaita
 gtk-icon-theme-name=Faience-Azur
-gtk-font-name=Sans 10
+gtk-font-name=Cantarell 9
 gtk-cursor-theme-name=Adwaita
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
