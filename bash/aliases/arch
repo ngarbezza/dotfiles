@@ -29,3 +29,5 @@ alias service-start='sudo systemctl start'
 alias service-stop='sudo systemctl stop'
 alias service-enable='sudo systemctl enable'
 alias service-disable='sudo systemctl disable'
+
+alias set-background='feh --bg-scale "$HOME/background.jpg"'
