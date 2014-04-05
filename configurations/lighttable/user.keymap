@@ -15,4 +15,5 @@
      :editor {"alt-w"           [:editor.watch.watch-selection]
               "alt-shift-w"     [:editor.watch.unwatch]
               "ctrl-shift-c"    [:toggle-console]
-              "alt-shift-enter" [:clear-inline-results]}}}
+              "alt-shift-enter" [:clear-inline-results]
+              "ctrl-shift-i"    [:smart-indent-selection]}}}
