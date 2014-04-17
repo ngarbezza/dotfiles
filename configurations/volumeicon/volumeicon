@@ -6,7 +6,7 @@ use_horizontal_slider=false
 show_sound_level=true
 use_transparent_background=true
 onclick=xterm -e 'alsamixer'
-theme=White Gnome
+theme=Black Gnome
 
 [Hotkeys]
 up_enabled=false
