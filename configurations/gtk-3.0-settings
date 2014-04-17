@@ -2,7 +2,7 @@
 
 [Settings] 
 gtk-theme-name=Adwaita
-gtk-icon-theme-name=Faience-Azur
+gtk-icon-theme-name=Faience-Ocre
 gtk-font-name=Cantarell 9
 gtk-cursor-theme-name=Adwaita
 gtk-cursor-theme-size=0
