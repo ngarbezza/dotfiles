@@ -6,13 +6,13 @@
 # ID 1
 rounded = 2
 border_width = 0
-background_color = #6B6B6B 69
+background_color = #DDDDDD 100
 border_color = #BBCEFF 0
 
 # ID 2
 rounded = 2
 border_width = 0
-background_color = #FFFFFF 40
+background_color = #F0F0F0 100
 border_color = #FFFFFF 40
 
 # Panel
@@ -24,7 +24,7 @@ panel_padding = 7 0 7
 panel_dock = 0
 wm_menu = 0
 panel_layer = top
-panel_background_id = 0
+panel_background_id = 1
 
 # Panel Autohide
 autohide = 0
@@ -37,7 +37,7 @@ strut_policy = follow_size
 taskbar_mode = single_desktop
 taskbar_padding = 2 3 2
 taskbar_background_id = 0
-taskbar_active_background_id = 0
+#taskbar_active_background_id = 1
 
 # Tasks
 urgent_nb_of_blink = 8
@@ -47,8 +47,8 @@ task_centered = 1
 task_maximum_size = 140 35
 task_padding = 6 2
 task_background_id = 0
-task_active_background_id = 1
-task_urgent_background_id = 0
+task_active_background_id = 2
+task_urgent_background_id = 2
 task_iconified_background_id = 0
 
 # Task Icons
@@ -60,7 +60,7 @@ task_iconified_icon_asb = 70 0 0
 # Fonts
 task_font = Cantarell 9
 task_font_color = #000000 60
-task_active_font_color = #000000 80
+task_active_font_color = #000000 94
 task_urgent_font_color = #000000 80
 task_iconified_font_color = #000000 60
 font_shadow = 0
@@ -75,9 +75,9 @@ systray_icon_asb = 70 0 0
 
 # Clock
 time1_format = %H:%M
-time1_font = Cantarell 9
+time1_font = Cantarell Bold 9
 time2_format = %A %d de %B
-time2_font = Cantarell 7
+time2_font = Cantarell Bold 7
 clock_font_color = #000000 60
 clock_padding = 1 0
 clock_background_id = 0
@@ -104,8 +104,8 @@ battery = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "battery low"
 battery_hide = 98
-bat1_font = Cantarell 9
-bat2_font = Cantarell 7
+bat1_font = Cantarell Bold 9
+bat2_font = Cantarell Bold 7
 battery_font_color = #000000 60
 battery_padding = 1 0
 battery_background_id = 0
