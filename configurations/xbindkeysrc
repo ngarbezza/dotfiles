@@ -76,7 +76,10 @@
 ". ~/.bash/functions/actions && _take_screenshot_selection"
   Shift + Print
 
-"arandr"
+". ~/.bash/functions/actions && _blank_screen"
+  XF86Launch1
+
+". ~/.bash/functions/actions && _open_display_manager"
   XF86Display
 
 #########

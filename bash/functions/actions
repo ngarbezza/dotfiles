@@ -62,6 +62,14 @@ _aug_brightness() {
   light -a 10
 }
 
+_blank_screen() {
+  sleep 1; xset dpms force off
+}
+
+_open_display_manager() {
+  arandr
+}
+
 _take_screenshot_full_screen() {
   scrot '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f ~/screenshots'
 }
