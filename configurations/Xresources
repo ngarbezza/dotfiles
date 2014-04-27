@@ -1,4 +1,4 @@
-xterm*VT100.geometry: 100x30
+xterm*VT100.geometry: 80x24
 xterm*locale: true
 
 xterm*faceName: DejaVu Sans Mono for Powerline
