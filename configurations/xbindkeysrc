@@ -1,6 +1,15 @@
-#########
-# MUSIC #
-#########
+#################
+# AUDIO / MUSIC #
+#################
+
+"pulseaudio-ctl mute"
+  XF86AudioMute
+
+"pulseaudio-ctl up"
+  XF86AudioRaiseVolume
+
+"pulseaudio-ctl down"
+  XF86AudioLowerVolume
 
 ". ~/.bash/functions/actions && _prev_song"
   Control + XF86AudioLowerVolume
@@ -10,7 +19,7 @@
 
 ". ~/.bash/functions/actions && _stop_song"
   Control + XF86MonBrightnessUp
-
+"
 ". ~/.bash/functions/actions && _toggle_play_song"
   Control + XF86MonBrightnessDown
 
