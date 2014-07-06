@@ -5,3 +5,4 @@ source $COMPLETIONS_PATH/git
 complete -C $COMPLETIONS_PATH/pharo_completion -o default pharo
 source $COMPLETIONS_PATH/rake-completion # Rake (cached) completion
 source $COMPLETIONS_PATH/teamocil
+source $COMPLETIONS_PATH/lein-completion
