@@ -1,3 +1,4 @@
+alias g=git
 alias gl='git l'
 alias gln='git l -n'
 alias glg='git l | grep'
