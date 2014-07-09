@@ -1,7 +1,0 @@
-tint2 &
-
-setxkbmap -layout us -variant altgr-intl -option shift:both_capslock_cancel -option ctrl:nocaps &
-
-volumeicon &
-
-feh --bg-scale "$HOME/wallpaper"
