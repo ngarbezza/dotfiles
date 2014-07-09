@@ -20,12 +20,12 @@
         </startupnotify>
       </action>
     </item>
-    <item label="Leafpad">
+    <item label="Mousepad">
       <action name="Execute">
-        <command>leafpad</command>
+        <command>mousepad</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <wmclass>Leafpad</wmclass>
+          <wmclass>Mousepad</wmclass>
         </startupnotify>
       </action>
     </item>
@@ -44,15 +44,6 @@
         <startupnotify>
           <enabled>yes</enabled>
           <wmclass>Firefox</wmclass>
-        </startupnotify>
-      </action>
-    </item>
-    <item label="Chromium">
-      <action name="Execute">
-        <command>chromium</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <wmclass>chromium</wmclass>
         </startupnotify>
       </action>
     </item>
