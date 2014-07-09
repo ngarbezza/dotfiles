@@ -22,7 +22,7 @@ alias rc='r && c'
 
 alias map='xargs -n1'
 alias path='echo -e ${PATH//:/\\n}'
-alias now='date +"%T'
+alias now='date +%T'
 
 alias hist='history | grep'
 
