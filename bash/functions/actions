@@ -1,11 +1,11 @@
 # Common tools
 
 _open_terminal_emulator() {
-  xterm
+  terminator
 }
 
 _open_terminal_emulator_full_screen() {
-  xterm -fullscreen
+  terminator --fullscreen
 }
 
 _open_text_editor() {
@@ -29,7 +29,7 @@ _open_gui_file_manager() {
 }
 
 _open_console_file_manager() {
-  xterm -fullscreen -e ranger
+  terminator --fullscreen --command=ranger
 }
 
 _open_password_manager() {

@@ -1,0 +1,45 @@
+[global_config]
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#379d06"
+  enabled_plugins = CustomCommandsMenu, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+  zoom_in = <Primary>equal
+  go_up = <Alt><Super>Up
+  split_horiz = <Alt><Super>h
+  go_down = <Alt><Super>Down
+  new_window = <Primary><Shift>n
+  split_vert = <Alt><Super>v
+  go_right = <Alt><Super>Right
+  go_left = <Alt><Super>Left
+  edit_window_title = None
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    font = DejaVu Sans Mono for Powerline 10
+    visible_bell = True
+    background_image = None
+    use_system_font = False
+    foreground_color = "#839496"
+    copy_on_selection = True
+    background_color = "#002b36"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
+  [[CustomCommandsMenu]]
+    [[[delete]]]
+      command = rm %f
+      enabled = True
+      name = delete
+    [[[git add]]]
+      command = git add $f
+      enabled = True
+      name = git add
