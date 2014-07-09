@@ -11,15 +11,6 @@
     </item>
   </menu>
   <menu id="apps-editors-menu" label="Editors">
-    <item label="GVim">
-      <action name="Execute">
-        <command>gvim</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <wmclass>GVim</wmclass>
-        </startupnotify>
-      </action>
-    </item>
     <item label="Vim">
       <action name="Execute">
         <command>xterm -e vim</command>

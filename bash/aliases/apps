@@ -1,7 +1,5 @@
 alias f='firefox'
 alias v='vim'
-alias gv='gvim'
-alias sv='sudo vim'
 alias vimconfig='v ~/.vimrc'
 alias nowplaying='sonata info'
 alias e='$EDITOR'
