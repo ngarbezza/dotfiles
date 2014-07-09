@@ -3,7 +3,8 @@
     "global" : {
       "disabled-plugins" : [
         "SynapseLaunchpadPlugin",
-        "SynapseOpenSearchPlugin"
+        "SynapseOpenSearchPlugin",
+        "SynapseChromiumPlugin"
       ]
     }
   },
