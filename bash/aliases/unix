@@ -41,6 +41,8 @@ alias tf='tail -f'
 alias mounted='mount | column -t'
 
 alias +x='chmod +x'
+alias 777='chmod -R 777'
+alias 644='chmod -R 644'
 
 alias k='kill -9'
 
