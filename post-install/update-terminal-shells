@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cp -R ../bash/ ~/.bash
-echo 'source ~/.bash/nahuelrc' >> ~/.bashrc
-echo 'source ~/.bashrc' >> ~/.bash_profile
-source ~/.bash_profile
