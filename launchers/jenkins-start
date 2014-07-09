@@ -1,5 +1,0 @@
-#!/bin/bash
-
-WARFILE=$HOME/software/jenkins/jenkins.war
-LOGFILE=$HOME/software/jenkins/jenkins.log
-java -jar $WARFILE --httpPort=9090 > $LOGFILE 2>&1
