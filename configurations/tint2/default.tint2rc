@@ -37,7 +37,7 @@ strut_policy = follow_size
 taskbar_mode = single_desktop
 taskbar_padding = 2 3 2
 taskbar_background_id = 0
-#taskbar_active_background_id = 1
+#taskbar_active_background_id = 0
 
 # Tasks
 urgent_nb_of_blink = 8
@@ -60,7 +60,7 @@ task_iconified_icon_asb = 70 0 0
 # Fonts
 task_font = Cantarell 9
 task_font_color = #000000 60
-task_active_font_color = #000000 94
+task_active_font_color = #000000 93
 task_urgent_font_color = #000000 80
 task_iconified_font_color = #000000 60
 font_shadow = 0
