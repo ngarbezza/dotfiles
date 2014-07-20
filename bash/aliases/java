@@ -1,7 +1,7 @@
 alias mvn3=/usr/bin/mvn
-alias mvn-test='mvn -Dsurefire.useFile=false test'
-alias mvp='mvn package'
+alias mvnt='mvn -Dsurefire.useFile=false test'
+alias mvnp='mvn package'
 alias mvcp='mvn clean package'
-alias mve='mvn eclipse:eclipse'
-alias mvi='mvn install'
-alias pf='$PLAY2_HOME/play'
+alias mvnd='mvn dependency:resolve'
+alias mvne='mvn eclipse:eclipse'
+alias mvni='mvn install'
