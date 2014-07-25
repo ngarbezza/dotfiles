@@ -167,6 +167,17 @@ map <Leader>rpt :RainbowParenthesesToggle<CR>
 " Hiccup
 au BufRead,BufNewFile *.hiccup set filetype=clojure
 
+set wildignore+=*/tmp/*,*/target*
+" CtrlP
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$',
+  \ 'file': '\.so$\|\.dat$'
+  \ }
+let g:ctrlp_prompt_mappings = {
+  \ 'AcceptSelection("e")': ['<c-t>'],
+  \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
+  \ }
+
 syntax on
 set background=dark
 colorscheme solarized
