@@ -1,0 +1,5 @@
+git-squash-last() {
+  git reset --hard HEAD~$@
+  git merge --squash HEAD@{1}
+  git commit
+}
