@@ -1,1 +1,0 @@
-[ type teamocil &> /dev/null ] && complete -W "$(teamocil --list)" teamocil
