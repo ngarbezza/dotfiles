@@ -39,9 +39,6 @@
 ". ~/.bash/functions/actions && _open_gui_file_manager"
   Control+Alt + n
 
-". ~/.bash/functions/actions && _open_console_file_manager"
-  Control+Alt + r
-
 ". ~/.bash/functions/actions && _open_calculator"
   Control+Alt + c
 

@@ -28,10 +28,6 @@ _open_gui_file_manager() {
   thunar
 }
 
-_open_console_file_manager() {
-  terminator --fullscreen --command=ranger
-}
-
 _open_password_manager() {
   keepassx
 }
