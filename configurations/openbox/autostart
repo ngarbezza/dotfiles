@@ -6,8 +6,6 @@ xbindkeys &
 
 synapse -s &
 
-neap &
-
 volumeicon &
 
 feh --bg-scale "$HOME/wallpaper" &
