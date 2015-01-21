@@ -51,11 +51,11 @@ _lock_screen() {
 }
 
 _dim_brightness() {
-  light -s 10
+  light -U 10
 }
 
 _aug_brightness() {
-  light -a 10
+  light -A 10
 }
 
 _blank_screen() {
