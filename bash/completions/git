@@ -1,2 +1,7 @@
 # complete g with the same completion script than git
 complete -o bashdefault -o default -o nospace -F __git_wrap__git_main g
+
+# configure completion for aliases
+if [ "`type -t __git_complete`" = "function" ]; then
+  __git_complete gco _git_checkout
+fi
