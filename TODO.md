@@ -1,0 +1,12 @@
+- Post-install scripts for:
+  - X Server
+  - Openbox
+  - Terminator
+  - Desktop utilities
+  - Virtualbox (host or guest)
+  - Fonts
+  - General symlinks structure
+- Bootstrap script for
+  - ArchLinux machine
+  - Ubuntu machine
+- integration with [fresh](http://freshshell.com/) ?
