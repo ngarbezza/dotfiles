@@ -11,3 +11,4 @@ source $ALIASES_PATH/other
 source $ALIASES_PATH/ruby
 source $ALIASES_PATH/svn
 source $ALIASES_PATH/unix
+source $ALIASES_PATH/vagrant
