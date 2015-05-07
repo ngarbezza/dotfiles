@@ -13,6 +13,9 @@ alias lg='l | grep'
 alias lt='l -t'
 alias lz='l -S'
 
+# rm
+alias rr='rm -Rf'
+
 # find
 alias ff="find . -type f -name"
 
