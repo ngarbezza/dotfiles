@@ -1,5 +1,7 @@
 alias vu='vagrant up'
 alias vp='vagrant provision'
 alias vup='vagrant up --provision'
+alias vs='vagrant ssh'
 alias vh='vagrant halt'
 alias vd='vagrant destroy'
+alias vr='vagrant reload'
