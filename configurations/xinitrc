@@ -9,6 +9,4 @@ xrdb -load ~/.Xresources &
 
 udiskie &
 
-xautolock -time 5 -corners 00+- -cornerdelay 2 -cornersize 10 -locker slimlock &
-
 exec openbox-session
