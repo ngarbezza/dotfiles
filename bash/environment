@@ -1,7 +1,4 @@
 export M2_REPO=$HOME/.m2/repository
-export JAVA_HOME=/opt/java
-export MVN_HOME=$HOME/software/apache-maven-3.0.5
-export CABAL_HOME=$HOME/.cabal
 export RBENV_HOME=$HOME/.rbenv
 
 export EDITOR=vim
@@ -10,7 +7,7 @@ export TERM="xterm-256color"
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 
-export PATH=$CABAL_HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$RBENV_HOME/bin:$MVN_HOME/bin:$PATH
+export PATH=$HOME/scripts:$RBENV_HOME/bin:$PATH
 
 export JVM_OPTS="-Duser.country=US -Duser.language=en"
 
