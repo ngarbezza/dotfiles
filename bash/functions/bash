@@ -6,6 +6,8 @@ mcd () {
 
 # auto cd
 shopt -s autocd
+# allow ** patterns
+shopt -s globstar
 
 # History
 # TODO separate in a history file
