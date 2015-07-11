@@ -4,17 +4,17 @@ names[0] = Default Profile
 hosts[0] = localhost
 ports[0] = 6600
 passwords[0] = 
-musicdirs[0] = /home/nahuel/music/
+musicdirs[0] = /home/nahuel/musica/
 
 [connection]
 auto = True
 profile_num = 0
 
 [player]
-w = 826
-h = 556
-x = 305
-y = 142
+w = 1366
+h = 709
+x = -4
+y = 0
 expanded = True
 withdrawn = False
 screen = 0
@@ -36,7 +36,7 @@ lyrics_location = 0
 info_song_expanded = True
 info_lyrics_expanded = True
 info_album_expanded = True
-info_song_more = True
+info_song_more = False
 info_art_enlarged = False
 show_header = True
 tabs_expanded = False
@@ -45,15 +45,15 @@ minimize = False
 statusbar = True
 lyrics = True
 notification = True
-popup_time = 2
-notif_location = 0
+popup_time = 1
+notif_location = 2
 playback = True
 progressbar = True
 trayicon = True
 search_num = 5
 existing_playlist = 0
 browser = 
-columnwidths = 241,42,218,188,48,58
+columnwidths = 336,42,245,224,96,58
 
 [notebook]
 current_tab_visible = True
