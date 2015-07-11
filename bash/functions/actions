@@ -25,7 +25,7 @@ _open_calculator() {
 }
 
 _open_gui_file_manager() {
-  thunar
+  dolphin
 }
 
 _open_password_manager() {
