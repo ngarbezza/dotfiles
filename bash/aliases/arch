@@ -27,6 +27,8 @@ alias p='ping www.example.com'
 
 alias service-start='sudo systemctl start'
 alias service-stop='sudo systemctl stop'
+alias service-restart='sudo systemctl restart'
+alias service-reload='sudo systemctl reload'
 alias service-enable='sudo systemctl enable'
 alias service-disable='sudo systemctl disable'
 
