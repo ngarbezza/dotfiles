@@ -8,6 +8,7 @@ source $ALIASES_PATH/git
 source $ALIASES_PATH/java
 source $ALIASES_PATH/mercurial
 source $ALIASES_PATH/other
+source $ALIASES_PATH/pacman
 source $ALIASES_PATH/ruby
 source $ALIASES_PATH/svn
 source $ALIASES_PATH/unix

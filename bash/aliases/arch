@@ -1,21 +1,9 @@
 alias sudo='sudo '
 alias s='sudo '
 
-alias search-package='yaourt -Ss'
-alias install-package='yaourt -S --noconfirm'
-alias remove-package='sudo pacman -Rs'
-alias upgrade-packages='yaourt -Syu'
-alias upgrade-packages-aur='yaourt -Syua'
-alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
-alias packages-count='pacman -Q | wc -l'
-alias package-info='pacman -Qi'
-alias pq='pacman -Q | grep'
-
 alias psg='ps -e | grep'
 
 alias blank='sleep 1 && xset dpms force off'
-
-alias systemd-enabled-services='ls /etc/systemd/system/*.wants'
 
 alias webcam-enable='sudo modprobe uvcvideo'
 alias webcam-disable='sudo modprobe -r uvcvideo'
@@ -31,6 +19,7 @@ alias service-restart='sudo systemctl restart'
 alias service-reload='sudo systemctl reload'
 alias service-enable='sudo systemctl enable'
 alias service-disable='sudo systemctl disable'
+alias service-list-enabled='ls /etc/systemd/system/*.wants'
 
 alias set-background='feh --bg-scale "$HOME/background.jpg"'
 
