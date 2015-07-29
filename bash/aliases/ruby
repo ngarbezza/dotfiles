@@ -11,6 +11,8 @@ alias rkg='bundle exec rake -T | grep'
 alias rkm='bundle exec rake db:migrate'
 alias rkmt='bundle exec rake db:migrate RAILS_ENV=test'
 alias rkmd='bundle exec rake db:migrate RAILS_ENV=development'
+alias rkslt='bundle exec rake db:schema:load RAILS_ENV=test'
+alias rksld='bundle exec rake db:schema:load RAILS_ENV=development'
 alias rkr='bundle exec rake routes'
 alias rkrg='bundle exec rake routes | grep'
 
