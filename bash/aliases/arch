@@ -21,7 +21,5 @@ alias service-enable='sudo systemctl enable'
 alias service-disable='sudo systemctl disable'
 alias service-list-enabled='ls /etc/systemd/system/*.wants'
 
-alias set-background='feh --bg-scale "$HOME/background.jpg"'
-
 alias ten='translate {=en}'
 alias tes='translate {=es}'
