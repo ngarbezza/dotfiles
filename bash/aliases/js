@@ -1,0 +1,1 @@
+alias jsi='npm install && bower install'
