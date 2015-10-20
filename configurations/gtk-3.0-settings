@@ -1,8 +1,8 @@
 [Settings]
-gtk-font-name=Cantarell Regular 10
+gtk-font-name=Oxygen-Sans Sans-Book 10
 gtk-theme-name=Adwaita
 gtk-icon-theme-name=breeze
-gtk-fallback-icon-theme=default
+gtk-fallback-icon-theme=breeze
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-menu-images=1
 gtk-button-images=1
