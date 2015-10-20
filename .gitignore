@@ -3,3 +3,4 @@
 .netrwhist
 configurations/vim/bundle/**
 ~configurations/vim/bundle/vundle
+.idea
