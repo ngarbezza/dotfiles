@@ -1,0 +1,11 @@
+# logs
+alias hl='heroku logs'
+alias hlt='heroku logs -t'
+alias hlta='heroku logs -t -a'
+
+# rails console
+alias hc='heroku run rails c'
+alias hca='heroku run rails c -a'
+
+# rake
+alias hr='heroku run rake'
