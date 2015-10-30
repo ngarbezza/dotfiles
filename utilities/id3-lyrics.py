@@ -19,4 +19,3 @@ try:
 except IOError:
     print "File '%s' does not exist" % mp3_file_path
     exit()
-

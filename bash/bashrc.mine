@@ -5,4 +5,3 @@ source $BASE_PATH/aliases/base
 source $BASE_PATH/completions/base
 source $BASE_PATH/functions/base
 source $BASE_PATH/prompt/base
-
