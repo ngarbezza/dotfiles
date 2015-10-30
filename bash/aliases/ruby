@@ -29,6 +29,7 @@ alias bdu='bundle update'
 # Rails
 alias rs='rails s -p 3000'
 alias rs1='rails s -p 3001'
+alias rsc='bundle exec rails console'
 
 # Rails2
 alias rails2-s='ruby script/server'
