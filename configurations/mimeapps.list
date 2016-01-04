@@ -1,12 +1,5 @@
 [Default Applications]
-application/x-mimearchive=firefox.desktop
-audio/mpeg=vlc.desktop
 text/x-tex=mousepad.desktop
-text/html=mousepad.desktop
-inode/directory=Thunar-folder-handler.desktop
 
 [Added Associations]
-application/x-mimearchive=firefox.desktop;
 audio/mpeg=vlc.desktop;
-text/x-tex=userapp-vim-SWEPCX.desktop;mousepad.desktop;
-text/html=mousepad.desktop;
