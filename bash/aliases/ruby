@@ -43,3 +43,10 @@ alias rbh='rbenv rehash'
 
 # cucumber
 alias cuc='bundle exec cucumber'
+
+# spring
+alias ss='spring stop'
+
+# cops
+alias cop='bundle exec rubocop'
+alias cops='bundle exec rubocop && cane'
