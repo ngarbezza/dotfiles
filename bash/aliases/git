@@ -34,6 +34,8 @@ alias gcob='git checkout -B'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbd='git branch -D'
+alias gbo='git branch --set-upstream-to'
+alias gbt='git branch --track'
 
 # Rebase
 alias grb='git rebase'
