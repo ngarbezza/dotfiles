@@ -20,6 +20,7 @@ alias rkslt='bundle exec rake db:schema:load RAILS_ENV=test'
 alias rksld='bundle exec rake db:schema:load RAILS_ENV=development'
 alias rkr='bundle exec rake routes'
 alias rkrg='bundle exec rake routes | grep'
+alias rkcc='bundle exec rake tmp:cache:clear'
 
 # Bundler
 alias bdi='bundle install'
