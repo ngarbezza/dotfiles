@@ -24,3 +24,6 @@ alias hmd='heroku run rake db:migrate:down VERSION='
 # config
 alias hcg='heroku config:get'
 alias hcs='heroku config:set'
+
+# os
+alias hra='heroku ps:restart -a'
