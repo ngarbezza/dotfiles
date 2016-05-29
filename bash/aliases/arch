@@ -20,6 +20,7 @@ alias service-reload='sudo systemctl reload'
 alias service-enable='sudo systemctl enable'
 alias service-disable='sudo systemctl disable'
 alias service-list-enabled='ls /etc/systemd/system/*.wants'
+alias service-clear-logs='journalctl --vacuum-time=2d'
 
 alias ten='translate {=en}'
 alias tes='translate {=es}'
