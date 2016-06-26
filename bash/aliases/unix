@@ -49,7 +49,7 @@ alias 644='chmod -R 644'
 
 alias k='kill -9'
 
-alias lns='ln -s'
+alias lns='ln -sin'
 
 alias os='cat /etc/*release | grep ^ID= | cut -d= -f2'
 
