@@ -12,5 +12,3 @@ export PATH=$HOME/scripts:$RBENV_HOME/bin:/usr/local/heroku/bin:$PATH
 export JVM_OPTS="-Duser.country=US -Duser.language=en"
 
 export OPENSSL_CONF=/etc/ssl/openssl.cnf
-
-eval "$(rbenv init -)"

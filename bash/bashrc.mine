@@ -1,7 +1,7 @@
 BASE_PATH=~/.bash
 
-source $BASE_PATH/environment
 source $BASE_PATH/aliases/base
 source $BASE_PATH/completions/base
 source $BASE_PATH/functions/base
 source $BASE_PATH/prompt/base
+source $BASE_PATH/startup/base.sh
