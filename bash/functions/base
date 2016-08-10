@@ -1,8 +1,0 @@
-FUNCTIONS_PATH=$BASE_PATH/functions
-
-source $FUNCTIONS_PATH/cb
-source $FUNCTIONS_PATH/git
-source $FUNCTIONS_PATH/bash
-source $FUNCTIONS_PATH/extract
-source $FUNCTIONS_PATH/octopress
-source $FUNCTIONS_PATH/ruby
