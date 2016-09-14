@@ -41,6 +41,8 @@ alias rails2-g='ruby script/generate'
 alias rbv='rbenv version'
 alias rbs='rbenv shell'
 alias rbh='rbenv rehash'
+alias rbi='rbenv install'
+alias rbit='cat .ruby-version | rbenv install' # rbenv install 'this'
 
 # cucumber
 alias cuc='bundle exec cucumber'
