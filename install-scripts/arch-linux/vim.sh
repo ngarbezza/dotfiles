@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 sudo pacman -S vim
-. ../shared/install-vim
+. ../shared/vim.sh
