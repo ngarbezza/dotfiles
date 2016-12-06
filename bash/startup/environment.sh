@@ -12,3 +12,8 @@ export PATH=$HOME/scripts:$RBENV_HOME/bin:/usr/local/heroku/bin:$PATH
 export JVM_OPTS="-Duser.country=US -Duser.language=en"
 
 export OPENSSL_CONF=/etc/ssl/openssl.cnf
+
+export ANDROID_HOME=~/software/android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
