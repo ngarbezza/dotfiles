@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias vu='vagrant up'
 alias vp='vagrant provision'
 alias vs='vagrant ssh'

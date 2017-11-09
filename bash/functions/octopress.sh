@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 octopress-new-post() {
   bundle exec rake new_post["$@"]
 }

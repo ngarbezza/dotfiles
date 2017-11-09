@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Author.: Ole J
 # Date...: 23.03.2008
 # License: Whatever

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 PROMPT_PATH=$BASE_PATH/prompt
 
 source $PROMPT_PATH/colors.sh

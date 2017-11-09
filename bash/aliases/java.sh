@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias mvn3=/usr/bin/mvn
 alias mvnt='mvn -Dsurefire.useFile=false test'
 alias mvnp='mvn package'

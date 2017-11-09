@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Common tools
 
 _open_terminal_emulator() {

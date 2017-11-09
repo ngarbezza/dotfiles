@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 git-squash-last() {
   git reset --hard HEAD~$@
   git merge --squash HEAD@{1}

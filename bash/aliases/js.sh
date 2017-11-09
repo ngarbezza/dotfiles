@@ -1,4 +1,6 @@
-alias jsi='npm install && bower install'
+#!/usr/bin/env bash
+
+alias jsi='yarn install && bower install'
 
 # ember
 alias es='ember server'

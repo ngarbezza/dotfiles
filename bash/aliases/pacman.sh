@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias search-package='yaourt -Ss'
 alias install-package='yaourt -S --noconfirm'
 alias remove-package='sudo pacman -Rs'

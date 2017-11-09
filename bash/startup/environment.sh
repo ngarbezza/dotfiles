@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export M2_REPO=$HOME/.m2/repository
 export RBENV_HOME=$HOME/.rbenv
 

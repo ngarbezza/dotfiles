@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # create and change dir
 mcd () {
   mkdir -p "$1"

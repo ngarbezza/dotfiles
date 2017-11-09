@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias clear-svn='rm -rf `find . -type d -name .svn`'
 alias url-svn="svn info | sed -ne 's/URL: //p'"
 

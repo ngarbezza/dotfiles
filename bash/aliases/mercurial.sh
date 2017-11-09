@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias hgs='hg status'
 alias hgd='hg diff'
 alias hgl='hg log'

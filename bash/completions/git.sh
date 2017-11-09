@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # complete g with the same completion script than git
 complete -o bashdefault -o default -o nospace -F __git_wrap__git_main g
 

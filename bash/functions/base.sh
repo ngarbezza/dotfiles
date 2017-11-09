@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 FUNCTIONS_PATH=$BASE_PATH/functions
 
 source $FUNCTIONS_PATH/cb.sh

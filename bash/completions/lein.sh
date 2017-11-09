@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 _lein_completion() {
     local cur prev tasks
     COMPREPLY=()
