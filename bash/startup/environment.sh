@@ -17,3 +17,4 @@ export ANDROID_HOME=~/software/android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
+export SSH_ASKPASS=/usr/bin/ksshaskpass

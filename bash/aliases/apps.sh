@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias f='firefox'
 alias v='vim'
 alias vimconfig='v ~/.vimrc'

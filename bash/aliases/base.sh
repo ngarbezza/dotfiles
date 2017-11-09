@@ -1,9 +1,12 @@
+#!/usr/bin/env bash
+
 ALIASES_PATH=${BASE_PATH}/aliases
 
 source ${ALIASES_PATH}/apps.sh
 source ${ALIASES_PATH}/arch.sh
 source ${ALIASES_PATH}/clojure.sh
 source ${ALIASES_PATH}/code.sh
+source ${ALIASES_PATH}/erlang-elixir.sh
 source ${ALIASES_PATH}/git.sh
 source ${ALIASES_PATH}/heroku.sh
 source ${ALIASES_PATH}/java.sh

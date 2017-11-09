@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias sudo='sudo '
 alias s='sudo '
 
