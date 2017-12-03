@@ -9,6 +9,7 @@ alias hlta='heroku logs -t -a'
 # rails console
 alias hc='heroku run rails c'
 alias hca='heroku run rails c -a'
+alias hca2='heroku run rails c -s Standard-2X -a'
 
 # rake
 alias hr='heroku run rake'
