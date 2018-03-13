@@ -10,6 +10,8 @@ alias hlta='heroku logs -t -a'
 alias hc='heroku run rails c'
 alias hca='heroku run rails c -a'
 alias hca2='heroku run rails c -s Standard-2X -a'
+alias hcapm='heroku run rails c -s Performance-M -a'
+alias hcapl='heroku run rails c -s Performance-L -a'
 
 # rake
 alias hr='heroku run rake'
@@ -36,3 +38,4 @@ alias hra='heroku ps:restart -a'
 alias hao='heroku addons:open'
 alias haol='heroku addons:open librato -a'
 alias haon='heroku addons:open newrelic -a'
+alias haopt='heroku addons:open papertrail -a'
