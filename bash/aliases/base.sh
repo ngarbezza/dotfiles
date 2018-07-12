@@ -6,6 +6,7 @@ source ${ALIASES_PATH}/apps.sh
 source ${ALIASES_PATH}/arch.sh
 source ${ALIASES_PATH}/clojure.sh
 source ${ALIASES_PATH}/code.sh
+source ${ALIASES_PATH}/docker.sh
 source ${ALIASES_PATH}/erlang-elixir.sh
 source ${ALIASES_PATH}/git.sh
 source ${ALIASES_PATH}/heroku.sh
