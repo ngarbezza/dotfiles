@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-alias search-package='yaourt -Ss'
-alias install-package='yaourt -S --noconfirm'
+alias search-package='aurman -Ss'
+alias install-package='aurman -S --noconfirm'
 alias remove-package='sudo pacman -Rs'
-alias upgrade-packages='yaourt -Syu'
-alias upgrade-packages-aur='yaourt -Syua'
+alias upgrade-packages='aurman -Syu'
+alias upgrade-packages-aur='aurman -Syua'
 alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
 alias packages-count='pacman -Q | wc -l'
 alias package-info='pacman -Qi'
