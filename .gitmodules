@@ -1,9 +1,3 @@
-[submodule "utilities/rbenv"]
-	path = utilities/rbenv
-	url = https://github.com/sstephenson/rbenv.git
-[submodule "utilities/ruby-build"]
-	path = utilities/ruby-build
-	url = https://github.com/sstephenson/ruby-build.git
 [submodule "configurations/vim/bundle/vundle"]
 	path = configurations/vim/bundle/vundle
 	url = https://github.com/gmarik/Vundle.vim.git
