@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-alias search-package='aurman -Ss'
-alias install-package='aurman -S --noconfirm'
+AUR_HELPER='pacaur'
+
+alias search-package='${AUR_HELPER} -Ss'
+alias install-package='${AUR_HELPER} -S --noconfirm'
 alias remove-package='sudo pacman -Rs'
-alias upgrade-packages='aurman -Syu'
-alias upgrade-packages-aur='aurman -Syua'
+alias upgrade-packages='${AUR_HELPER} -Syu'
+alias upgrade-packages-aur='${AUR_HELPER} -Syua'
 alias autoremove-packages='sudo pacman -Rs $(pacman -Qtdq)'
 alias packages-count='pacman -Q | wc -l'
 alias package-info='pacman -Qi'
