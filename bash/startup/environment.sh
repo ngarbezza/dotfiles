@@ -2,7 +2,7 @@
 
 export M2_REPO=$HOME/.m2/repository
 
-export EDITOR=vim
+export EDITOR=nano
 export BROWSER=google-chrome-stable
 export DIFF_TOOL=meld
 export TERM="xterm-256color"
@@ -10,7 +10,7 @@ export TERM="xterm-256color"
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 
-export PATH=$HOME/scripts:$RBENV_HOME/bin:/usr/local/heroku/bin:$PATH
+export PATH=$HOME/Applications/scripts:$PATH
 
 export JVM_OPTS="-Duser.country=US -Duser.language=en"
 
