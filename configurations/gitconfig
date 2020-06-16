@@ -97,6 +97,7 @@
   whatidid = "!f() { git log --pretty='format:%C(yellow)%h %G? %ad%Cred%d %Creset%s%C(cyan) [%cn]' --decorate --after=\"$1 0:00\" --before=\"$1 23:59\" --author \"`git config user.name`\"; }; f"
   amend-to = "!f() { SHA=`git rev-parse \"$1\"`; git commit --fixup \"$SHA\" && GIT_SEQUENCE_EDITOR=true git rebase --interactive --autosquash \"$SHA^\"; }; f"
   prevision = "!f() { git checkout `git log --oneline $2 |  awk -v commit="$1" 'FNR == -commit+1 {print $1}'` $2;} ;f"
+	new = !git init && git symbolic-ref HEAD refs/heads/main
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [merge]
@@ -120,6 +121,7 @@
   # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
   # instead of a/b/c/d as prefixes for patches
   mnemonicprefix = true
+	algorithm = histogram
 [rerere]
   # Remember my merges
   # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
