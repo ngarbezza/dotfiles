@@ -55,3 +55,6 @@ alias ss='spring stop'
 # cops
 alias cop='bundle exec rubocop'
 alias copc="git diff --name-only --cached | grep '\.rb' | xargs rubocop -a"
+
+# Jekyll
+alias jks="bundle exec jekyll serve"
