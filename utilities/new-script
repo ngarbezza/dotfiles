@@ -1,12 +1,13 @@
 #!/usr/bin/env sh
 
 # script to create new scripts
-#   usage: new-script file-name
+#   usage: new-script file-name env-name
 
 if [ -n "$1" ]; then
-  echo "#!/usr/bin/env sh
+  echo "#!/usr/bin/env $2
 
 " > $1
+  chmod +x $1
   $EDITOR $1
 else
   echo "Please provide the script name"
